@@ -39,7 +39,20 @@ const Navbar: FC = () => {
           <div className="flex items-center justify-between relative">
             <div className="px-4">
               <Link href="/" legacyBehavior>
-                <a className="font-primary font-bold text-xl lg:text-2xl block py-6">
+                <a
+                  className="inline-flex items-center gap-2 font-primary font-bold text-xl lg:text-2xl py-6"
+                  aria-label="logo"
+                >
+                  <svg
+                    width="95"
+                    height="94"
+                    viewBox="0 0 95 94"
+                    className="w-5 h-auto text-primary"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M96 0V47L48 94H0V47L48 0H96Z" />
+                  </svg>
                   Brand Klinik
                   {/* <Image src={Logo} width={100} height={40} alt="Logo Brand" /> */}
                 </a>
