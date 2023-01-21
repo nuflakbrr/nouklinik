@@ -4,16 +4,16 @@ import { FaAngleRight } from 'react-icons/fa';
 
 const AboutSection: FC = () => {
   return (
-    <section className="mt-20">
+    <section className="py-20">
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="flex flex-wrap items-center justify-center">
             <div className="mb-10 w-full px-4 lg:w-1/2">
               <img
-                src="/assets/svg/undraw_doctor.svg"
+                src="/assets/img/mockup.png"
                 loading="lazy"
                 alt="Gedung PT Brand Klinik"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-center rounded-xl"
               />
             </div>
 

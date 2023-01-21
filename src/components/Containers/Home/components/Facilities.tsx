@@ -2,13 +2,13 @@ import { FC } from 'react';
 
 const Facilities: FC = () => {
   return (
-    <section className="mt-20">
+    <section className="py-20">
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="flex text-center items-center justify-center">
             <div className="mb-10 w-full px-4">
-              <h2 className="font-primary font-semibold text-2xl text-primary mb-2">
-                Fasilitas
+              <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-primary mb-2">
+                Fasilitas Kami
               </h2>
 
               <p className="text-gray-500 xl:text-lg leading-relaxed">
@@ -19,7 +19,7 @@ const Facilities: FC = () => {
             </div>
           </div>
 
-          <div className="mb-10 w-full px-4">
+          <div className="w-full px-4">
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-6 xl:gap-8">
               {/* image start */}
               <a

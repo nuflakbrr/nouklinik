@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 const TopSection: FC = () => {
   return (
-    <section>
+    <section className="py-24">
       <div className="max-w-7xl mx-auto">
         <div className="container">
-          <div className="flex flex-wrap-reverse mt-5">
-            <div className="mb-10 w-full px-4 lg:w-1/2">
+          <div className="flex flex-wrap-reverse">
+            <div className="w-full px-4 lg:w-1/2">
               <p className="font-primary font-semibold text-lg xl:text-xl text-primary mb-4 md:mb-6">
                 Very proud to introduce
               </p>
@@ -24,20 +24,20 @@ const TopSection: FC = () => {
 
               <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5">
                 <Link href="/" legacyBehavior>
-                  <a className="inline-block bg-primary hover:bg-primarydark active:bg-primary focus-visible:ring ring-primary text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">
+                  <a className="inline-block bg-primary hover:bg-primarydark active:bg-primary focus-visible:ring ring-primary text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-5 py-3">
                     Mulai Eksplorasi
                   </a>
                 </Link>
 
                 <Link href="/" legacyBehavior>
-                  <a className="inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-primary text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">
+                  <a className="inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-primary text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-5 py-3">
                     Daftar
                   </a>
                 </Link>
               </div>
             </div>
 
-            <div className="mb-10 w-full px-4 lg:w-1/2">
+            <div className="mb-10 lg:mb-0 w-full px-4 lg:w-1/2">
               <img
                 src="/assets/svg/undraw_doctor.svg"
                 loading="lazy"
