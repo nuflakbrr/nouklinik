@@ -48,7 +48,7 @@ const Footer: FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-12 lg:gap-8 pt-10 lg:pt-12 mb-16">
           <div className="col-span-full lg:col-span-2">
             {/* logo start */}
-            <div className="lg:-mt-2 mb-4">
+            <div className="mb-4">
               <Link href="/" legacyBehavior>
                 <a
                   className="inline-flex items-center text-gray-100 font-primary text-xl md:text-2xl font-bold gap-2"
