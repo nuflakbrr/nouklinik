@@ -2,7 +2,6 @@ import { FC, useEffect } from 'react';
 import Link from 'next/link';
 
 import styles from './Navbar.module.css';
-import ThemesSwitch from '../../ThemeSwitch';
 import { headerNavLink } from '../../../data/headerNavLink';
 
 // import Logo from '';
@@ -69,22 +68,17 @@ const Navbar: FC = () => {
                 id="navMenu"
                 className="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
               >
-                <div className="flex flex-col lg:flex-row items-start lg:items-center">
-                  <ul className="block lg:flex">
-                    {headerNavLink.map((a, i) => (
-                      <li className="group" key={i}>
-                        <Link href={a.href} legacyBehavior>
-                          <a className="font-secondary font-semibold text-base text-black dark:text-white py-2 mx-8 lg:mx-2 flex group-hover:text-primary dark:group-hover:text-emerald-500 transition duration-300 ease-in-out">
-                            {a.title}
-                          </a>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="block mx-8 lg:mx-2">
-                    <ThemesSwitch />
-                  </div>
-                </div>
+                <ul className="block lg:flex">
+                  {headerNavLink.map((a, i) => (
+                    <li className="group" key={i}>
+                      <Link href={a.href} legacyBehavior>
+                        <a className="font-secondary font-semibold text-base text-black py-2 mx-8 lg:mx-2 flex group-hover:text-primary dark:group-hover:text-emerald-500 transition duration-300 ease-in-out">
+                          {a.title}
+                        </a>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </nav>
             </div>
           </div>

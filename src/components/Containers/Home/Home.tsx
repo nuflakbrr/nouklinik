@@ -10,7 +10,7 @@ const ContainerHome: FC = () => {
         <title>Beranda - Klinik</title>
       </Head>
 
-      <main className="bg-white dark:bg-slate-900 pt-20 pb-20">
+      <main className="pt-20 pb-20">
         <TopSection />
       </main>
     </>

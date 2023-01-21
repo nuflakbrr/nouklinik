@@ -34,92 +34,86 @@ const Footer: FC = () => {
   ];
 
   return (
-    <main>
-      <div className="bg-white dark:bg-slate-900">
-        <footer className="pt-24 pb-12 max-w-7xl mx-auto">
-          <div className="container">
-            <div className="flex flex-wrap">
-              {/* Primary Link */}
-              <div className="w-full px-4 mb-12 md:w-1/4">
-                <ul>
-                  {primaryLink.map((a, i) => (
-                    <li key={i}>
-                      <Link href={a.url} legacyBehavior>
-                        <a className="inline-block text-base text-primary dark:text-white dark:hover:text-emerald-500 hover:text-primary2 hover:underline">
-                          {a.title}
-                        </a>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              {/* Primary Link End */}
+    <footer className="pt-24 pb-12 max-w-7xl mx-auto">
+      <div className="container">
+        <div className="flex flex-wrap">
+          {/* Primary Link */}
+          <div className="w-full px-4 mb-12 md:w-1/4">
+            <ul>
+              {primaryLink.map((a, i) => (
+                <li key={i}>
+                  <Link href={a.url} legacyBehavior>
+                    <a className="inline-block text-base text-primary hover:text-primary2 hover:underline">
+                      {a.title}
+                    </a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          {/* Primary Link End */}
 
-              {/* Secondary Link */}
-              <div className="w-full px-4 mb-12 md:w-1/4">
-                <ul>
-                  {secondaryLink.map((a, i) => (
-                    <li key={i}>
-                      <Link href={a.url} legacyBehavior>
-                        <a className="inline-block text-base text-primary dark:text-white dark:hover:text-emerald-500 hover:text-primary2 hover:underline">
-                          {a.title}
-                        </a>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              {/* Secondary Link End */}
+          {/* Secondary Link */}
+          <div className="w-full px-4 mb-12 md:w-1/4">
+            <ul>
+              {secondaryLink.map((a, i) => (
+                <li key={i}>
+                  <Link href={a.url} legacyBehavior>
+                    <a className="inline-block text-base text-primary hover:text-primary2 hover:underline">
+                      {a.title}
+                    </a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          {/* Secondary Link End */}
 
-              {/* Tertiary Link */}
-              <div className="w-full px-4 mb-12 md:w-1/4">
-                <ul>
-                  {tertiaryLink.map((a, i) => (
-                    <li key={i}>
-                      <Link href={a.url} legacyBehavior>
-                        <a className="inline-block text-base text-primary dark:text-white dark:hover:text-emerald-500 hover:text-primary2 hover:underline">
-                          {a.title}
-                        </a>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              {/* Tertiary Link End */}
+          {/* Tertiary Link */}
+          <div className="w-full px-4 mb-12 md:w-1/4">
+            <ul>
+              {tertiaryLink.map((a, i) => (
+                <li key={i}>
+                  <Link href={a.url} legacyBehavior>
+                    <a className="inline-block text-base text-primary hover:text-primary2 hover:underline">
+                      {a.title}
+                    </a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          {/* Tertiary Link End */}
 
-              {/* Social Link */}
-              <div className="w-full px-4 mb-12 md:w-1/4">
-                <ul>
-                  {socialLink.map((a, i) => (
-                    <li key={i}>
-                      <Link href={a.url} legacyBehavior>
-                        <a className="inline-block text-base text-primary dark:text-white dark:hover:text-emerald-500 hover:text-primary2 hover:underline">
-                          {a.title}
-                        </a>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              {/* Social Link End */}
+          {/* Social Link */}
+          <div className="w-full px-4 mb-12 md:w-1/4">
+            <ul>
+              {socialLink.map((a, i) => (
+                <li key={i}>
+                  <Link href={a.url} legacyBehavior>
+                    <a className="inline-block text-base text-primary hover:text-primary2 hover:underline">
+                      {a.title}
+                    </a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          {/* Social Link End */}
+        </div>
+        <div className="w-full pt-5 text-sm">
+          <div className="text-center flex flex-wrap justify-between items-end">
+            <div className="font-primary text-black px-4">
+              Brand Klinik
+              {/* <img src={Logo} width={200} height={40} alt="Logo Brand" /> */}
             </div>
-            <div className="w-full pt-5 text-sm">
-              <div className="text-center flex flex-wrap justify-between items-end">
-                <div className="font-primary text-black dark:text-white px-4">
-                  Wikusama Hotel
-                  {/* <img src={Logo} width={200} height={40} alt="Logo Brand" /> */}
-                </div>
-                <div className="px-4 pt-2 md:pt-0">
-                  <span className="text-slate-600 dark:text-slate-400">
-                    &copy; {year} PT Hadirin
-                  </span>
-                </div>
-              </div>
+            <div className="px-4 pt-2 md:pt-0">
+              <span className="text-slate-600">&copy; {year} PT Klinik</span>
             </div>
           </div>
-        </footer>
+        </div>
       </div>
-    </main>
+    </footer>
   );
 };
 

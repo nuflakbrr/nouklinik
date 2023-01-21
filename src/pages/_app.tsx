@@ -1,7 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import { ThemeProvider } from 'next-themes';
 
 import Navbar from '../components/Common/Navbar/Navbar';
 import ScrollToTop from '../components/ScrollToTop';
@@ -9,7 +8,7 @@ import Footer from '../components/Common/Footer';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider enableSystem={true} attribute="class">
+    <>
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport' content='width=device-width, initial-scale=1" />
@@ -28,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
 
       <Footer />
-    </ThemeProvider>
+    </>
   );
 }
 
