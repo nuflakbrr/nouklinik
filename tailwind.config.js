@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         primary: '#01a3a4',
-        primary2: '#017d7e',
+        primarydark: '#017d7e',
       },
       fontFamily: {
         primary: ['DM Sans', 'sans-serif'],
