@@ -1,7 +1,12 @@
 import { FC } from 'react';
 import Link from 'next/link';
 
-import { InstagramIcon, LinkedInIcon, TwitterIcon } from '../CustomIcons';
+import {
+  FacebookIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  TwitterIcon,
+} from '../CustomIcons';
 
 // const Logo = '/img/hadir-in.jpeg';
 
@@ -10,16 +15,16 @@ const Footer: FC = () => {
 
   const primaryLink = [
     { title: 'Beranda', url: '/' },
-    { title: 'Tentang Kami', url: '/' },
-    { title: 'Layanan', url: '/' },
-    { title: 'Dokter', url: '/' },
+    { title: 'Tentang Kami', url: '/about' },
+    { title: 'Layanan', url: '/service' },
+    { title: 'Dokter', url: '/doctors' },
   ];
 
   const secondaryLink = [
-    { title: 'Fasilitas', url: '/' },
-    { title: 'Blog', url: '/' },
-    { title: 'Karir', url: '/' },
-    { title: 'Informasi Magang', url: '/' },
+    { title: 'Fasilitas', url: '/fasilities' },
+    { title: 'Blog', url: '/blog' },
+    { title: 'Karir', url: '/career' },
+    { title: 'Informasi Magang', url: '/internship' },
   ];
 
   const tertiaryLink = [
@@ -28,8 +33,6 @@ const Footer: FC = () => {
     { title: 'FAQ', url: '/' },
   ];
 
-  const productLink = [{ title: 'Download Aplikasi', url: '/' }];
-
   const legalLink = [
     { title: 'Terms of Service', url: '/' },
     { title: 'Privacy Policy', url: '/' },
@@ -37,6 +40,7 @@ const Footer: FC = () => {
   ];
 
   const socialLink = [
+    { title: 'Facebook', icon: <FacebookIcon />, url: '/' },
     { title: 'Instagram', icon: <InstagramIcon />, url: '/' },
     { title: 'Twitter', icon: <TwitterIcon />, url: '/' },
     { title: 'LinkedIn', icon: <LinkedInIcon />, url: '/' },
@@ -45,7 +49,7 @@ const Footer: FC = () => {
   return (
     <div className="bg-slate-800">
       <footer className="max-w-7xl px-4 mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-12 lg:gap-8 pt-10 lg:pt-12 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-12 lg:gap-8 pt-10 lg:pt-12 mb-16">
           <div className="col-span-full lg:col-span-2">
             {/* logo start */}
             <div className="mb-4">
@@ -71,8 +75,9 @@ const Footer: FC = () => {
             {/* logo end */}
 
             <p className="text-gray-400 sm:pr-8 mb-6">
-              Filler text is dummy text which has no meaning however looks very
-              similar to real text.
+              Berdiri sejak 2023, Klinik Kesehatan <i>Nama Klinik</i> telah
+              membantu masyarakat dalam mendapatkan pelayanan kesehatan yang
+              berkualitas.
             </p>
 
             {/* social start */}
@@ -91,26 +96,6 @@ const Footer: FC = () => {
             </div>
             {/* social end */}
           </div>
-
-          {/* nav start */}
-          <div>
-            <div className="text-gray-100 font-bold tracking-widest uppercase mb-4">
-              Produk
-            </div>
-
-            <nav className="flex flex-col gap-4">
-              {productLink.map((a, i) => (
-                <div key={i}>
-                  <Link href={a.url} legacyBehavior>
-                    <a className="text-gray-400 hover:text-primary active:text-primarydark transition duration-100">
-                      {a.title}
-                    </a>
-                  </Link>
-                </div>
-              ))}
-            </nav>
-          </div>
-          {/* nav end */}
 
           {/* nav start */}
           <div>
@@ -194,7 +179,7 @@ const Footer: FC = () => {
         </div>
 
         <div className="text-gray-400 text-sm text-center border-t border-gray-800 py-8">
-          © {year} - PT Brand Klinik. All rights reserved.
+          © {year} - PT <i>Nama PT Klinik</i>. All rights reserved.
         </div>
       </footer>
     </div>
