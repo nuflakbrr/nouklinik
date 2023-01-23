@@ -2,19 +2,19 @@ import { FC } from 'react';
 
 const Facilities: FC = () => {
   return (
-    <section className="py-20">
+    <section className="py-24">
       <div className="max-w-7xl mx-auto">
         <div className="container">
-          <div className="flex text-center items-center justify-center">
-            <div className="mb-10 w-full px-4">
-              <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-primary mb-2">
+          <div className="flex flex-wrap items-center justify-center">
+            <div className="mb-10 md:mb-16 px-4">
+              <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-center text-primary mb-2">
                 Fasilitas Kami
               </h2>
 
-              <p className="text-gray-500 xl:text-lg leading-relaxed">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+              <p className="max-w-screen-md text-gray-500 xl:text-lg leading-relaxed text-center">
+                Klinik Kesehatan <i>Nama Klinik</i> menawarkan berbagai macam
+                fasilitas untuk kenyamanan masyarakat. Berikut adalah fasilitas
+                kami bisa Anda nikmati di <i>Nama Klinik</i>.
               </p>
             </div>
           </div>

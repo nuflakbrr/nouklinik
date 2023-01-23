@@ -4,7 +4,7 @@ import { FaAngleRight } from 'react-icons/fa';
 
 const AboutSection: FC = () => {
   return (
-    <section className="py-20">
+    <section className="pt-36 pb-24" id="about-us">
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="flex flex-wrap items-center justify-center">
@@ -22,18 +22,19 @@ const AboutSection: FC = () => {
                 Tentang Kami
               </p>
 
-              <h1 className="text-black-800 text-4xl font-bold mb-2">
-                PT Brand Klinik
+              <h1 className="text-3xl lg:text-4xl font-bold mb-5">
+                Kami membantu Anda untuk mendapatkan pelayanan kesehatan yang
+                berkualitas.
               </h1>
 
-              <p className="lg:w-4/5 text-gray-500 xl:text-lg leading-relaxed mb-5">
-                PT Brand Klinik adalah perusahaan yang bergerak di bidang
-                kesehatan yang berdiri sejak tahun 2019. PT Brand Klinik
-                bergerak di bidang kesehatan dengan menyediakan layanan
-                kesehatan yang berkualitas dengan harga yang terjangkau.
+              <p className="text-gray-500 xl:text-lg leading-relaxed mb-5">
+                Klinik Kesehatan <i>Nama Klinik</i> adalah fasilitas pelayanan
+                masyarakat yang bergerak di bidang kesehatan yang berdiri sejak
+                tahun 2023. Kami telah membantu banyak masyarakat dalam
+                mendapatkan pelayanan kesehatan yang berkualitas.
               </p>
 
-              <Link href="/" legacyBehavior>
+              <Link href="/about" legacyBehavior>
                 <a className="inline-block items-center justify-center bg-primary hover:bg-primarydark active:bg-primary focus-visible:ring ring-primary text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-3 py-2">
                   Lihat Selengkapnya <FaAngleRight className="inline-block" />
                 </a>

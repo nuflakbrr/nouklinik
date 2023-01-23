@@ -2,20 +2,20 @@ import { FC } from 'react';
 
 const Doctors: FC = () => {
   return (
-    <section className="py-20">
+    <section className="py-24">
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="w-full px-4">
             {/* text start */}
             <div className="mb-10 md:mb-16">
               <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-primary text-center mb-2">
-                Bertemu Dengan Dokter Kami
+                Temui Dokter Kami
               </h2>
 
               <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text but is random or otherwise generated.
+                Klinik Kesehatan <i>Nama Klinik</i> memiliki Tenaga Medis yang
+                profesional dan kompeten di bidangnya, dengan berbagai bidang
+                spesialisasi dan subspesialisasi kedokteran.
               </p>
             </div>
             {/* text end */}
