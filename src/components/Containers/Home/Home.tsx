@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import TopSection from './components/Top';
 import AboutSection from './components/About';
+import ServiceSection from './components/Service';
 import Facilities from './components/Facilities';
 import CallToAction from '../../CallToAction';
 import Doctors from './components/Doctors';
@@ -12,7 +13,6 @@ import FAQ from '../../FAQ';
  * To Do List
  *
  * 1. Add SEO
- * 2. Create Layanan Section
  */
 
 const ContainerHome: FC = () => {
@@ -25,6 +25,7 @@ const ContainerHome: FC = () => {
       <main className="pt-20">
         <TopSection />
         <AboutSection />
+        <ServiceSection />
         <Facilities />
         <CallToAction />
         <Doctors />
