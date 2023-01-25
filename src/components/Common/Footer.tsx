@@ -21,7 +21,7 @@ const Footer: FC = () => {
   ];
 
   const secondaryLink = [
-    { title: 'Fasilitas', url: '/fasilities' },
+    { title: 'Fasilitas', url: '/facilities' },
     { title: 'Blog', url: '/blog' },
     { title: 'Karir', url: '/career' },
     { title: 'Informasi Magang', url: '/internship' },

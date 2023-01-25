@@ -46,10 +46,6 @@ const Navbar: FC = () => {
     }
 
     return pathname !== '/' && path !== '/' && pathname.includes(path);
-
-    // if (typeof window !== 'undefined') {
-    //   return window.location.pathname === path ? 'text-primary' : 'text-black';
-    // }
   };
 
   return (
