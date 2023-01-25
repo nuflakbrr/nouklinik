@@ -1,3 +1,22 @@
+## TO DO LIST
+
+### Landing Page
+
+- [ ] Slider Services
+- [ ] Detail Doctor Page
+- [ ] Blog Page
+- [ ] Career Page
+- [ ] Contact Page
+- [ ] FAQ Page
+- [ ] Terms Page
+- [ ] Privacy Policy Page
+- [ ] Register Page
+- [ ] Login Page
+
+### Feature
+
+- [ ] Live Chat
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
