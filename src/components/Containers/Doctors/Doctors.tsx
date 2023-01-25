@@ -18,7 +18,7 @@ const ContainerDoctors: FC = () => {
       </Head>
 
       <main className="pt-20">
-        <section className="py-24">
+        <section className="py-10 lg:py-24">
           <div className="max-w-7xl mx-auto">
             <div className="container">
               <div className="w-full px-4">
