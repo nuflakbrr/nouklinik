@@ -3,13 +3,14 @@
 ### Landing Page
 
 - [ ] Slider Services
-- [ ] Detail Doctor Page
+- [x] Detail Doctor Page
+- [ ] Design Detail Doctor Page
 - [ ] Blog Page
 - [ ] Career Page
-- [ ] Contact Page
+- [ ] Contact Page (33.3%)
 - [ ] FAQ Page
-- [ ] Terms Page
-- [ ] Privacy Policy Page
+- [x] Terms Page
+- [x] Privacy Policy Page
 - [ ] Register Page
 - [ ] Login Page
 
