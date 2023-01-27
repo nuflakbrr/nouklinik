@@ -27,8 +27,6 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
 };
 
 const DetailDoctor: FC = ({ data }: any) => {
-  console.log(data);
-
   return (
     <>
       <Head>
