@@ -10,8 +10,8 @@
 - [x] FAQ Page
 - [x] Terms Page
 - [x] Privacy Policy Page
-- [ ] Register Page
-- [ ] Login Page
+- [x] Register Page
+- [x] Login Page
 
 ### Feature
 
