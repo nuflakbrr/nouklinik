@@ -1,6 +1,8 @@
 import { FC } from 'react';
 import Head from 'next/head';
+
 import TopSection from './components/Top';
+import Form from './components/Form';
 
 const ContainerContact: FC = () => {
   return (
@@ -11,6 +13,7 @@ const ContainerContact: FC = () => {
 
       <main className="pt-20">
         <TopSection />
+        <Form />
       </main>
     </>
   );
