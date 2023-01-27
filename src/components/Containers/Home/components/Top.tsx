@@ -12,7 +12,7 @@ const TopSection: FC = () => {
                 Selamat datang di
               </p>
 
-              <h1 className=" text-4xl sm:text-5xl md:text-6xl font-bold mb-8 md:mb-12">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8 md:mb-12">
                 Klinik Kesehatan <i>Nama Klinik</i>
               </h1>
 
