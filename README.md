@@ -5,7 +5,6 @@
 - [ ] Slider Services
 - [x] Detail Doctor Page
 - [ ] Design Detail Doctor Page
-- [ ] Blog Page
 - [ ] Career Page
 - [ ] Contact Page (66.6%)
 - [x] FAQ Page
@@ -16,6 +15,7 @@
 
 ### Feature
 
+- [ ] Blog
 - [ ] Live Chat
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
