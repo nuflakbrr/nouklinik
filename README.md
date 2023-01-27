@@ -7,8 +7,8 @@
 - [ ] Design Detail Doctor Page
 - [ ] Blog Page
 - [ ] Career Page
-- [ ] Contact Page (33.3%)
-- [ ] FAQ Page
+- [ ] Contact Page (66.6%)
+- [x] FAQ Page
 - [x] Terms Page
 - [x] Privacy Policy Page
 - [ ] Register Page
