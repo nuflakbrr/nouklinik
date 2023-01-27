@@ -28,15 +28,14 @@ const Footer: FC = () => {
   ];
 
   const tertiaryLink = [
-    { title: 'Kontak Kami', url: '/' },
+    { title: 'Kontak Kami', url: '/contact' },
     { title: 'Live Chat', url: '/' },
-    { title: 'FAQ', url: '/' },
+    { title: 'FAQ', url: '/faq' },
   ];
 
   const legalLink = [
-    { title: 'Terms of Service', url: '/' },
-    { title: 'Privacy Policy', url: '/' },
-    { title: 'Cookie Settings', url: '/' },
+    { title: 'Terms of Service', url: '/terms-of-service' },
+    { title: 'Privacy Policy', url: '/privacy-policy' },
   ];
 
   const socialLink = [
