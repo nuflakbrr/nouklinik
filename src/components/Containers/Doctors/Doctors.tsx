@@ -24,11 +24,11 @@ const ContainerDoctors: FC = () => {
               <div className="w-full px-4">
                 {/* text start */}
                 <div className="mb-10 md:mb-16">
-                  <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-primary text-center mb-2">
+                  <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-primary lg:text-center mb-2">
                     Temui Dokter Kami
                   </h2>
 
-                  <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
+                  <p className="max-w-screen-md text-gray-500 md:text-lg lg:text-center mx-auto">
                     Klinik Kesehatan <i>Nama Klinik</i> memiliki Tenaga Medis
                     yang profesional dan kompeten di bidangnya, dengan berbagai
                     bidang spesialisasi dan subspesialisasi kedokteran.
