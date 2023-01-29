@@ -29,7 +29,6 @@ const Footer: FC = () => {
 
   const tertiaryLink = [
     { title: 'Kontak Kami', url: '/contact' },
-    { title: 'Live Chat', url: '/' },
     { title: 'FAQ', url: '/faq' },
   ];
 
