@@ -34,7 +34,7 @@ const Maps: FC = () => {
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <MapContainer
-                className="w-full h-96 lg:h-[500px]"
+                className="w-full h-96 lg:h-[500px] rounded-xl shadow-lg"
                 center={[-7.93499, 112.65032]}
                 zoom={16}
                 scrollWheelZoom={true}
