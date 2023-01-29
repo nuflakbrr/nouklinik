@@ -4,7 +4,7 @@ import { FaAngleRight } from 'react-icons/fa';
 
 const AboutSection: FC = () => {
   return (
-    <section className="pt-36 pb-24" id="about-us">
+    <section className="pt-24 lg:pt-36 lg:pb-24" id="about-us">
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="flex flex-wrap items-center justify-center">

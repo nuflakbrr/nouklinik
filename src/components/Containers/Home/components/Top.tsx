@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const TopSection: FC = () => {
   return (
-    <section className="py-24">
+    <section className="py-10 lg:py-24">
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="flex flex-wrap-reverse">
