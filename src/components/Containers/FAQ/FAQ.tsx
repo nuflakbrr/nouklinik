@@ -43,11 +43,11 @@ const ContainerFAQ: FC = () => {
             <div className="container">
               <div className="flex flex-wrap items-center justify-center">
                 <div className="mb-10 md:mb-16 px-4">
-                  <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-center text-primary mb-2">
+                  <h2 className="font-primary font-semibold text-2xl lg:text-3xl lg:text-center text-primary mb-2">
                     Pertanyaan Umum
                   </h2>
 
-                  <p className="max-w-screen-sm text-gray-500 xl:text-lg leading-relaxed text-center">
+                  <p className="max-w-screen-sm text-gray-500 xl:text-lg leading-relaxed lg:text-center">
                     Pertanyaan paling umum tentang cara kerja klinik kami dan
                     apa yang dapat kami lakukan untuk Anda.
                   </p>
@@ -56,8 +56,8 @@ const ContainerFAQ: FC = () => {
                 <div className="w-full px-4">
                   <div className="rounded-xl shadow-lg p-5">
                     <div className="mb-0 md:mb-2">
-                      <details className="mb-4 cursor-pointer">
-                        <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                      <details className="mb-4">
+                        <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4 cursor-pointer">
                           How Long is this site live?
                         </summary>
 
@@ -71,8 +71,8 @@ const ContainerFAQ: FC = () => {
                     </div>
 
                     <div className="mb-0 md:mb-2">
-                      <details className="mb-4 cursor-pointer">
-                        <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                      <details className="mb-4">
+                        <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4 cursor-pointer">
                           How Long is this site live?
                         </summary>
 
@@ -86,8 +86,8 @@ const ContainerFAQ: FC = () => {
                     </div>
 
                     <div className="mb-0 md:mb-2">
-                      <details className="mb-4 cursor-pointer">
-                        <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                      <details className="mb-4">
+                        <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4 cursor-pointer">
                           How Long is this site live?
                         </summary>
 
@@ -101,8 +101,8 @@ const ContainerFAQ: FC = () => {
                     </div>
 
                     <div className="mb-0 md:mb-0">
-                      <details className="cursor-pointer">
-                        <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                      <details className="">
+                        <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4 cursor-pointer">
                           How Long is this site live?
                         </summary>
 

@@ -20,8 +20,8 @@ const FAQ: FC = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="rounded-xl shadow-lg p-5">
                 <div className="mb-0 md:mb-2">
-                  <details className="mb-4 cursor-pointer">
-                    <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                  <details className="mb-4">
+                    <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4 cursor-pointer">
                       How Long is this site live?
                     </summary>
 
@@ -34,8 +34,8 @@ const FAQ: FC = () => {
                 </div>
 
                 <div className="mb-0 md:mb-2">
-                  <details className="mb-4 cursor-pointer">
-                    <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                  <details className="mb-4">
+                    <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4 cursor-pointer">
                       How Long is this site live?
                     </summary>
 
@@ -48,8 +48,8 @@ const FAQ: FC = () => {
                 </div>
 
                 <div className="mb-0 md:mb-2">
-                  <details className="mb-4 cursor-pointer">
-                    <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                  <details className="mb-4">
+                    <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4 cursor-pointer">
                       How Long is this site live?
                     </summary>
 
@@ -62,8 +62,8 @@ const FAQ: FC = () => {
                 </div>
 
                 <div className="mb-0 md:mb-0">
-                  <details className="cursor-pointer">
-                    <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                  <details className="">
+                    <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4 cursor-pointer">
                       How Long is this site live?
                     </summary>
 
