@@ -6,7 +6,7 @@ const Form: FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="flex flex-wrap">
-            <div className="w-full px-4 lg:w-2/3">
+            <div className="mb-10 lg:mb-0 w-full px-4 lg:w-2/3">
               <h1 className="font-primary font-semibold text-2xl lg:text-3xl mb-2">
                 Kritik dan Saran
               </h1>

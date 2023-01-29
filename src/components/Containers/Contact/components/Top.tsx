@@ -7,15 +7,15 @@ const TopSection: FC = () => {
         <div className="container">
           <div className="flex flex-wrap-reverse">
             <div className="w-full px-4 lg:w-1/2">
-              <p className="font-primary font-semibold text-lg xl:text-xl text-primary uppercase mb-4 md:mb-6">
+              <p className="font-primary font-semibold text-lg xl:text-xl text-primary uppercase mb-3 md:mb-6">
                 Kontak Kami
               </p>
 
-              <h1 className=" text-4xl sm:text-5xl md:text-6xl font-bold mb-8 md:mb-12">
+              <h1 className=" text-4xl sm:text-5xl md:text-6xl font-bold mb-3 md:mb-12">
                 Kami Butuh Kritik & Saran Anda
               </h1>
 
-              <p className="lg:w-4/5 text-gray-500 xl:text-lg leading-relaxed mb-8 md:mb-12">
+              <p className="lg:w-4/5 text-gray-500 xl:text-lg leading-relaxed mb-3 md:mb-12">
                 Untuk meningkatkan kualitas layanan kami, kami sangat
                 mengharapkan kritik dan saran Anda. Jika Anda memiliki kritik
                 dan saran untuk kami, silahkan isi form di bawah ini.
