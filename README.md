@@ -16,7 +16,7 @@
 ### Feature
 
 - [ ] Blog
-- [ ] Live Chat
+- [x] Live Chat
 
 ## Nextjs Typescript Template (Include Tailwindcss, Customize ESLint Rules)
 
