@@ -6,7 +6,7 @@
 - [x] Detail Doctor Page
 - [ ] Design Detail Doctor Page
 - [ ] Career Page
-- [ ] Contact Page (66.6%)
+- [x] Contact Page
 - [x] FAQ Page
 - [x] Terms Page
 - [x] Privacy Policy Page
