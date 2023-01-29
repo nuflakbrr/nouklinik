@@ -1,23 +1,17 @@
 import { FC } from 'react';
 
-/**
- * To Do List
- *
- * 1. Add SEO
- */
+import TopSection from './components/Top';
+import ScheduleSection from './components/Schedule';
 
-const ContainerDetailDoctors: FC = () => {
+type ContainerDetailDoctorsProps = {
+  data: any;
+};
+
+const ContainerDetailDoctors: FC<ContainerDetailDoctorsProps> = ({ data }) => {
   return (
     <main className="pt-20">
-      <section className="py-10 lg:py-24">
-        <div className="max-w-7xl mx-auto">
-          <div className="container">
-            <div className="flex flex-wrap justify-center items-center">
-              <div className="w-full px-4">halo</div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <TopSection data={data} />
+      <ScheduleSection data={data} />
     </main>
   );
 };

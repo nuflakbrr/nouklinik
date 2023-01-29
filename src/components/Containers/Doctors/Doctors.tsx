@@ -48,7 +48,6 @@ const ContainerDoctors: FC = () => {
           <div className="max-w-7xl mx-auto">
             <div className="container">
               <div className="w-full px-4">
-                {/* text start */}
                 <div className="mb-10 md:mb-16">
                   <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-primary lg:text-center mb-2">
                     Temui Dokter Kami
@@ -60,10 +59,8 @@ const ContainerDoctors: FC = () => {
                     bidang spesialisasi dan subspesialisasi kedokteran.
                   </p>
                 </div>
-                {/* text end */}
 
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
-                  {/* person start */}
                   {doctorsData.map((d, i) => (
                     <div key={i}>
                       <Link href={`/doctors/${d.slug}`}>
@@ -78,7 +75,7 @@ const ContainerDoctors: FC = () => {
                           </div>
 
                           <div>
-                            <h1 className="text-primary hover:text-primarydark md:text-lg font-bold">
+                            <h1 className="text-primary hover:text-primarydark md:text-lg max-w-sm font-bold">
                               {d.name}
                             </h1>
                             <p className="text-gray-500 text-sm md:text-base mb-3 md:mb-4">
@@ -89,7 +86,6 @@ const ContainerDoctors: FC = () => {
                       </Link>
                     </div>
                   ))}
-                  {/* person end */}
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@
 
 - [ ] Slider Services
 - [x] Detail Doctor Page
-- [ ] Design Detail Doctor Page
+- [x] Design Detail Doctor Page
 - [ ] Career Page
 - [x] Contact Page
 - [x] FAQ Page
