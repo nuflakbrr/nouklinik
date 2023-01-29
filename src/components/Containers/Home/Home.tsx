@@ -7,7 +7,7 @@ import ServiceSection from './components/Service';
 import Facilities from './components/Facilities';
 import CallToAction from '../../CallToAction';
 import Doctors from './components/Doctors';
-import FAQ from '../../FAQ';
+import FAQ from './components/FAQ';
 
 /**
  * To Do List

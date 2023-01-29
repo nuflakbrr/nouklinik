@@ -8,7 +8,7 @@ export const MAX_DISPLAYED_DOCTORS = 6;
 
 const Doctors: FC = () => {
   return (
-    <section className="py-24">
+    <section className="py-10 lg:py-24">
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="w-full px-4">
