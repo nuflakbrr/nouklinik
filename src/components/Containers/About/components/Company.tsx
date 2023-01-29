@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 const CompanySection: FC = () => {
   return (
-    <section className="py-20">
+    <section className="py-10 lg:py-24">
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="flex flex-wrap items-center justify-center">
@@ -17,7 +17,7 @@ const CompanySection: FC = () => {
 
             <div className="w-full px-4 lg:w-1/2">
               <div>
-                <h1 className="font-primary font-semibold text-2xl lg:text-3xl mb-5">
+                <h1 className="max-w-sm lg:max-w-none font-primary font-semibold text-2xl lg:text-3xl mb-5">
                   Klinik Kesehatan <i>Nama Klinik</i> Memiliki
                 </h1>
               </div>

@@ -3,7 +3,7 @@ import { FaQuoteLeft } from 'react-icons/fa';
 
 const HeadClinicSection: FC = () => {
   return (
-    <section className="py-20">
+    <section className="py-10 lg:py-24">
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="flex flex-col justify-center items-center px-4">
