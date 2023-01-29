@@ -10,10 +10,10 @@ const ContainerLogin: FC = () => {
 
       <main className="pt-20">
         <section className="py-24">
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="container">
               <div className="flex flex-col lg:flex-row items-center justify-between">
-                <div className="mb-10 lg:mb-0 w-full px-4 lg:w-1/2">
+                <div className="mb-10 lg:mb-0 w-full px-4 mx-5 lg:w-1/2">
                   <img
                     src="/assets/svg/undraw_login.svg"
                     loading="lazy"
@@ -22,10 +22,10 @@ const ContainerLogin: FC = () => {
                   />
                 </div>
 
-                <div className="w-full px-4 lg:w-1/2">
+                <div className="w-full px-4 mx-5 lg:w-1/2">
                   <div className="flex items-center justify-center mb-5">
                     <h1 className="font-primary font-semibold text-2xl lg:text-3xl text-center">
-                      Selamat Datang Kembali!
+                      Selamat Datang!
                     </h1>
                   </div>
                   <div className="bg-white rounded-lg shadow-lg p-8">
