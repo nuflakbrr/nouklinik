@@ -1,8 +1,11 @@
 import { FC } from 'react';
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
 
 import TopSection from './components/Top';
 import Form from './components/Form';
+
+export const Maps = dynamic(() => import('./components/Map'), { ssr: false });
 
 const ContainerContact: FC = () => {
   return (
@@ -13,6 +16,7 @@ const ContainerContact: FC = () => {
 
       <main className="pt-20">
         <TopSection />
+        <Maps />
         <Form />
       </main>
     </>
