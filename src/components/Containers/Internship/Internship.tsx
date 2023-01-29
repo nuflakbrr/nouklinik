@@ -6,6 +6,41 @@ const ContainerInternship: FC = () => {
     <>
       <Head>
         <title>Informasi Magang - Brand Klinik</title>
+        <meta name="robots" content="follow, index" />
+        <meta
+          name="description"
+          content="Nama Klinik menyediakan serta memfasilitasi program magang di mana siswa maupun mahasiswa bisa menggunakan kesempatan ini untuk melatih skill dan melakukan pengembangan diri dalam dunia kerja."
+        />
+        <meta
+          property="og:url"
+          content="https://klinik-next.vercel.app/internship"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="id_ID" />
+        <meta property="og:site_name" content="Brand Klinik" />
+        <meta
+          property="og:description"
+          content="Nama Klinik menyediakan serta memfasilitasi program magang di mana siswa maupun mahasiswa bisa menggunakan kesempatan ini untuk melatih skill dan melakukan pengembangan diri dalam dunia kerja."
+        />
+        <meta property="og:title" content="Informasi Magang - Brand Klinik" />
+        <meta
+          property="og:image"
+          content="http://klinik-next.vercel.app/assets/svg/undraw_doctor.svg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Informasi Magang - Brand Klinik" />
+        <meta
+          name="twitter:description"
+          content="Nama Klinik menyediakan serta memfasilitasi program magang di mana siswa maupun mahasiswa bisa menggunakan kesempatan ini untuk melatih skill dan melakukan pengembangan diri dalam dunia kerja."
+        />
+        <meta
+          name="twitter:image"
+          content="http://klinik-next.vercel.app/assets/svg/undraw_doctor.svg"
+        />
+        <link
+          rel="canonical"
+          href="https://klinik-next.vercel.app/internship"
+        />
       </Head>
 
       <main className="pt-20">
