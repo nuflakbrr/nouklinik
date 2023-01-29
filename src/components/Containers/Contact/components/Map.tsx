@@ -1,5 +1,11 @@
 import { FC } from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  ZoomControl,
+} from 'react-leaflet';
 import { Icon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
@@ -38,11 +44,15 @@ const Maps: FC = () => {
                 center={[-7.93499, 112.65032]}
                 zoom={16}
                 scrollWheelZoom={true}
+                zoomControl={false}
               >
                 <TileLayer
                   attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
+
+                <ZoomControl position="bottomleft" />
+
                 <Marker position={[-7.93499, 112.65032]} icon={myIcon}>
                   <Popup>
                     A pretty CSS3 popup. <br /> Easily customizable.
