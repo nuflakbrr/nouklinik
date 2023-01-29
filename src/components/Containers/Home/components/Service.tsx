@@ -13,11 +13,11 @@ const ServiceSection: FC = () => {
         <div className="container">
           <div className="flex flex-wrap items-center justify-center">
             <div className="mb-10 md:mb-16 px-4">
-              <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-center text-primary mb-2">
+              <h2 className="font-primary font-semibold text-2xl lg:text-3xl lg:text-center text-primary mb-2">
                 Layanan Kami
               </h2>
 
-              <p className="max-w-screen-md text-gray-500 xl:text-lg leading-relaxed text-center">
+              <p className="max-w-screen-md text-gray-500 xl:text-lg leading-relaxed lg:text-center">
                 Klinik Kesehatan <i>Nama Klinik</i> menawarkan berbagai
                 pelayanan kesehatan yang mampu menjawab kebutuhan masyarakat dan
                 keramahan staff baik medis maupun non medis.

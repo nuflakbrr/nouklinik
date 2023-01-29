@@ -12,8 +12,8 @@ const Doctors: FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="container">
           <div className="w-full px-4">
-            <div className="flex items-center justify-between">
-              <div className="mb-10 md:mb-16">
+            <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
+              <div className="mb-5 md:mb-16">
                 <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-primary mb-2">
                   Temui Dokter Kami
                 </h2>
