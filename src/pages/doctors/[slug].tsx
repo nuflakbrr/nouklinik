@@ -30,7 +30,7 @@ const DetailDoctor: FC = ({ data }: any) => {
   return (
     <>
       <Head>
-        <title>{data.name} - Brand Klinik</title>
+        <title>Dokter {data.name} - Brand Klinik</title>
         <meta name="robots" content="follow, index" />
         <meta name="description" content={data.desc} />
         <meta
@@ -53,7 +53,7 @@ const DetailDoctor: FC = ({ data }: any) => {
         />
       </Head>
 
-      <ContainerDetailDoctors />
+      <ContainerDetailDoctors data={data} />
     </>
   );
 };

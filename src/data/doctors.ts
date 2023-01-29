@@ -1,9 +1,9 @@
 export const doctorsData = [
   {
-    name: 'Naufal Akbar',
+    name: 'Prof. DR.dr. Naufal Akbar Nugroho, Sp.PD-KPTI, Finasim',
     specialism: 'Penyakit Dalam',
     img: 'https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=500',
-    desc: 'Prof. DR. dr. Naufal Akbar, Sp. PD-KPTI adalah sosok yang rendah hati dan murah senyum. Banyak orang akrab memanggil beliau Prof. Djoni. Sudah banyak pasien yang merasa puas dan senang setelah ditangani Prof. Djoni. Beliau merupakan lulusan Fakultas Kedokteran di Universitas Padjadjaran Bandung dengan Program Studi Ilmu Penyakit Dalam dan ditetapkan sebagai Dokter Spesialis I Penyakit Dalam (Sp.PD.) di Bandung pada tanggal 16 April 1983.',
+    desc: 'Prof. DR. dr. Naufal Akbar, Sp. PD-KPTI adalah sosok yang rendah hati dan murah senyum. Banyak orang akrab memanggil beliau Prof. Djoni. Sudah banyak pasien yang merasa puas dan senang setelah ditangani Prof. Djoni. Beliau merupakan lulusan Fakultas Kedokteran di Universitas Padjadjaran Bandung dengan Program Studi Ilmu Penyakit Dalam dan ditetapkan sebagai Dokter Spesialis I Penyakit Dalam (Sp.PD.) di Bandung pada tanggal 16 April 1983. <br /> <br /> Dokter kelahiran Mojokerto, 7 Januari ini telah mendapat sertifikat kompetensi Dokter Spesialis Penyakit Dalam Konsultan Penyakit Tropik Infeksi dari Perhimpunan Dokter Spesialis Penyakit Dalam Indonesia yang berlaku dari 11 April 2016 sampai 11 April 2021. <br /> <br /> Dengan pengalaman dan keilmuannya selama lebih dari 30 tahun di dunia kesehatan dan kedokteran, Prof. Djoni kerap dipercaya sebagai pembicara pada beberapa forum kesehatan di tingkat nasional. Pada tiga tahun terakhir ini, tercatat ada 7 agenda seminar yang telah dilaksanakan, diantaranya adalah pembicara dalam kegiatan JAKARTA ANTI MICROBAL UPDATE 2017 tentang Evidence Based Used of Probiotics in Infectious and Allergic Cases, pembicara dalam kegiatan 1st Annual Scientific  Meeting of the Indonesia Society of Tropical and Infecttious Disease di El Royale Bandung pada tanggal 13 - 14 Oktober 2018, pembicara dalam kegiatan JAKARTA ANTIMICROBAL UPDATE 2018 dan Sebagai pembicara di workshop Vaccination in Infectious Disease di Malang pada tanggal 5-6 Juli 2019. <br /> <br /> Selain terdaftar dalam Ikatan Dokter Indonesia dan Perhimpunan Dokter Spesialis Penyakit Dalam Indonesia, Prof. Djoni juga merupakan direktur Rumah Sakit Universitas Muhammadiyah Malang.',
     recentSchools: [
       { schName: 'unpad', schYear: '1983' },
       { schName: 'unpad', schYear: '1983' },
@@ -12,8 +12,10 @@ export const doctorsData = [
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
+      { day: 'Senin', time: '08.00 - 12.00' },
     ],
     BPJSSchedule: [
+      { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
@@ -21,10 +23,10 @@ export const doctorsData = [
     slug: 'naufal-akbar',
   },
   {
-    name: 'Akbar',
+    name: 'Prof. DR.dr. Akbar Nugroho, Sp.PD-KPTI, Finasim',
     specialism: 'Penyakit Dalam',
     img: 'https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=500',
-    desc: 'Prof. DR. dr. Akbar, Sp. PD-KPTI adalah sosok yang rendah hati dan murah senyum. Banyak orang akrab memanggil beliau Prof. Djoni. Sudah banyak pasien yang merasa puas dan senang setelah ditangani Prof. Djoni. Beliau merupakan lulusan Fakultas Kedokteran di Universitas Padjadjaran Bandung dengan Program Studi Ilmu Penyakit Dalam dan ditetapkan sebagai Dokter Spesialis I Penyakit Dalam (Sp.PD.) di Bandung pada tanggal 16 April 1983.',
+    desc: 'Prof. DR. dr. Akbar, Sp. PD-KPTI adalah sosok yang rendah hati dan murah senyum. Banyak orang akrab memanggil beliau Prof. Djoni. Sudah banyak pasien yang merasa puas dan senang setelah ditangani Prof. Djoni. Beliau merupakan lulusan Fakultas Kedokteran di Universitas Padjadjaran Bandung dengan Program Studi Ilmu Penyakit Dalam dan ditetapkan sebagai Dokter Spesialis I Penyakit Dalam (Sp.PD.) di Bandung pada tanggal 16 April 1983. <br /> <br /> Dokter kelahiran Mojokerto, 7 Januari ini telah mendapat sertifikat kompetensi Dokter Spesialis Penyakit Dalam Konsultan Penyakit Tropik Infeksi dari Perhimpunan Dokter Spesialis Penyakit Dalam Indonesia yang berlaku dari 11 April 2016 sampai 11 April 2021. <br /> <br /> Dengan pengalaman dan keilmuannya selama lebih dari 30 tahun di dunia kesehatan dan kedokteran, Prof. Djoni kerap dipercaya sebagai pembicara pada beberapa forum kesehatan di tingkat nasional. Pada tiga tahun terakhir ini, tercatat ada 7 agenda seminar yang telah dilaksanakan, diantaranya adalah pembicara dalam kegiatan JAKARTA ANTI MICROBAL UPDATE 2017 tentang Evidence Based Used of Probiotics in Infectious and Allergic Cases, pembicara dalam kegiatan 1st Annual Scientific  Meeting of the Indonesia Society of Tropical and Infecttious Disease di El Royale Bandung pada tanggal 13 - 14 Oktober 2018, pembicara dalam kegiatan JAKARTA ANTIMICROBAL UPDATE 2018 dan Sebagai pembicara di workshop Vaccination in Infectious Disease di Malang pada tanggal 5-6 Juli 2019. <br /> <br /> Selain terdaftar dalam Ikatan Dokter Indonesia dan Perhimpunan Dokter Spesialis Penyakit Dalam Indonesia, Prof. Djoni juga merupakan direktur Rumah Sakit Universitas Muhammadiyah Malang.',
     recentSchools: [
       { schName: 'unpad', schYear: '1983' },
       { schName: 'unpad', schYear: '1983' },
@@ -33,8 +35,10 @@ export const doctorsData = [
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
+      { day: 'Senin', time: '08.00 - 12.00' },
     ],
     BPJSSchedule: [
+      { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
@@ -42,10 +46,10 @@ export const doctorsData = [
     slug: 'akbar',
   },
   {
-    name: 'Nopal',
+    name: 'Prof. DR.dr. Nopal Akbar, Sp.PD-KPTI, Finasim',
     specialism: 'Penyakit Dalam',
     img: 'https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=500',
-    desc: 'Prof. DR. dr. Nopal, Sp. PD-KPTI adalah sosok yang rendah hati dan murah senyum. Banyak orang akrab memanggil beliau Prof. Djoni. Sudah banyak pasien yang merasa puas dan senang setelah ditangani Prof. Djoni. Beliau merupakan lulusan Fakultas Kedokteran di Universitas Padjadjaran Bandung dengan Program Studi Ilmu Penyakit Dalam dan ditetapkan sebagai Dokter Spesialis I Penyakit Dalam (Sp.PD.) di Bandung pada tanggal 16 April 1983.',
+    desc: 'Prof. DR. dr. Nopal, Sp. PD-KPTI adalah sosok yang rendah hati dan murah senyum. Banyak orang akrab memanggil beliau Prof. Djoni. Sudah banyak pasien yang merasa puas dan senang setelah ditangani Prof. Djoni. Beliau merupakan lulusan Fakultas Kedokteran di Universitas Padjadjaran Bandung dengan Program Studi Ilmu Penyakit Dalam dan ditetapkan sebagai Dokter Spesialis I Penyakit Dalam (Sp.PD.) di Bandung pada tanggal 16 April 1983. <br /> <br /> Dokter kelahiran Mojokerto, 7 Januari ini telah mendapat sertifikat kompetensi Dokter Spesialis Penyakit Dalam Konsultan Penyakit Tropik Infeksi dari Perhimpunan Dokter Spesialis Penyakit Dalam Indonesia yang berlaku dari 11 April 2016 sampai 11 April 2021. <br /> <br /> Dengan pengalaman dan keilmuannya selama lebih dari 30 tahun di dunia kesehatan dan kedokteran, Prof. Djoni kerap dipercaya sebagai pembicara pada beberapa forum kesehatan di tingkat nasional. Pada tiga tahun terakhir ini, tercatat ada 7 agenda seminar yang telah dilaksanakan, diantaranya adalah pembicara dalam kegiatan JAKARTA ANTI MICROBAL UPDATE 2017 tentang Evidence Based Used of Probiotics in Infectious and Allergic Cases, pembicara dalam kegiatan 1st Annual Scientific  Meeting of the Indonesia Society of Tropical and Infecttious Disease di El Royale Bandung pada tanggal 13 - 14 Oktober 2018, pembicara dalam kegiatan JAKARTA ANTIMICROBAL UPDATE 2018 dan Sebagai pembicara di workshop Vaccination in Infectious Disease di Malang pada tanggal 5-6 Juli 2019. <br /> <br /> Selain terdaftar dalam Ikatan Dokter Indonesia dan Perhimpunan Dokter Spesialis Penyakit Dalam Indonesia, Prof. Djoni juga merupakan direktur Rumah Sakit Universitas Muhammadiyah Malang.',
     recentSchools: [
       { schName: 'unpad', schYear: '1983' },
       { schName: 'unpad', schYear: '1983' },
@@ -54,8 +58,10 @@ export const doctorsData = [
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
+      { day: 'Senin', time: '08.00 - 12.00' },
     ],
     BPJSSchedule: [
+      { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
@@ -63,10 +69,10 @@ export const doctorsData = [
     slug: 'nopal',
   },
   {
-    name: 'Nugroho',
+    name: 'Prof. DR.dr. Nugroho Nopal, Sp.PD-KPTI, Finasim',
     specialism: 'Penyakit Dalam',
     img: 'https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=500',
-    desc: 'Prof. DR. dr. Nugroho, Sp. PD-KPTI adalah sosok yang rendah hati dan murah senyum. Banyak orang akrab memanggil beliau Prof. Djoni. Sudah banyak pasien yang merasa puas dan senang setelah ditangani Prof. Djoni. Beliau merupakan lulusan Fakultas Kedokteran di Universitas Padjadjaran Bandung dengan Program Studi Ilmu Penyakit Dalam dan ditetapkan sebagai Dokter Spesialis I Penyakit Dalam (Sp.PD.) di Bandung pada tanggal 16 April 1983.',
+    desc: 'Prof. DR. dr. Nugroho, Sp. PD-KPTI adalah sosok yang rendah hati dan murah senyum. Banyak orang akrab memanggil beliau Prof. Djoni. Sudah banyak pasien yang merasa puas dan senang setelah ditangani Prof. Djoni. Beliau merupakan lulusan Fakultas Kedokteran di Universitas Padjadjaran Bandung dengan Program Studi Ilmu Penyakit Dalam dan ditetapkan sebagai Dokter Spesialis I Penyakit Dalam (Sp.PD.) di Bandung pada tanggal 16 April 1983. <br /> <br /> Dokter kelahiran Mojokerto, 7 Januari ini telah mendapat sertifikat kompetensi Dokter Spesialis Penyakit Dalam Konsultan Penyakit Tropik Infeksi dari Perhimpunan Dokter Spesialis Penyakit Dalam Indonesia yang berlaku dari 11 April 2016 sampai 11 April 2021. <br /> <br /> Dengan pengalaman dan keilmuannya selama lebih dari 30 tahun di dunia kesehatan dan kedokteran, Prof. Djoni kerap dipercaya sebagai pembicara pada beberapa forum kesehatan di tingkat nasional. Pada tiga tahun terakhir ini, tercatat ada 7 agenda seminar yang telah dilaksanakan, diantaranya adalah pembicara dalam kegiatan JAKARTA ANTI MICROBAL UPDATE 2017 tentang Evidence Based Used of Probiotics in Infectious and Allergic Cases, pembicara dalam kegiatan 1st Annual Scientific  Meeting of the Indonesia Society of Tropical and Infecttious Disease di El Royale Bandung pada tanggal 13 - 14 Oktober 2018, pembicara dalam kegiatan JAKARTA ANTIMICROBAL UPDATE 2018 dan Sebagai pembicara di workshop Vaccination in Infectious Disease di Malang pada tanggal 5-6 Juli 2019. <br /> <br /> Selain terdaftar dalam Ikatan Dokter Indonesia dan Perhimpunan Dokter Spesialis Penyakit Dalam Indonesia, Prof. Djoni juga merupakan direktur Rumah Sakit Universitas Muhammadiyah Malang.',
     recentSchools: [
       { schName: 'unpad', schYear: '1983' },
       { schName: 'unpad', schYear: '1983' },
@@ -75,8 +81,10 @@ export const doctorsData = [
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
+      { day: 'Senin', time: '08.00 - 12.00' },
     ],
     BPJSSchedule: [
+      { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
@@ -96,8 +104,10 @@ export const doctorsData = [
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
+      { day: 'Senin', time: '08.00 - 12.00' },
     ],
     BPJSSchedule: [
+      { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
@@ -117,8 +127,10 @@ export const doctorsData = [
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
+      { day: 'Senin', time: '08.00 - 12.00' },
     ],
     BPJSSchedule: [
+      { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
@@ -138,8 +150,10 @@ export const doctorsData = [
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
+      { day: 'Senin', time: '08.00 - 12.00' },
     ],
     BPJSSchedule: [
+      { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
@@ -159,29 +173,10 @@ export const doctorsData = [
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
-    ],
-    BPJSSchedule: [
-      { day: 'Senin', time: '08.00 - 12.00' },
-      { day: 'Senin', time: '08.00 - 12.00' },
-      { day: 'Senin', time: '08.00 - 12.00' },
-    ],
-    slug: 'jhon-mcculling',
-  },
-  {
-    name: 'John McCulling',
-    specialism: 'Penyakit Dalam',
-    img: 'https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=500',
-    desc: 'Prof. DR. dr. Djoni Djunaedi, Sp. PD-KPTI adalah sosok yang rendah hati dan murah senyum. Banyak orang akrab memanggil beliau Prof. Djoni. Sudah banyak pasien yang merasa puas dan senang setelah ditangani Prof. Djoni. Beliau merupakan lulusan Fakultas Kedokteran di Universitas Padjadjaran Bandung dengan Program Studi Ilmu Penyakit Dalam dan ditetapkan sebagai Dokter Spesialis I Penyakit Dalam (Sp.PD.) di Bandung pada tanggal 16 April 1983.',
-    recentSchools: [
-      { schName: 'unpad', schYear: '1983' },
-      { schName: 'unpad', schYear: '1983' },
-    ],
-    regulerSchedule: [
-      { day: 'Senin', time: '08.00 - 12.00' },
-      { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
     ],
     BPJSSchedule: [
+      { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
       { day: 'Senin', time: '08.00 - 12.00' },
