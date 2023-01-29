@@ -17,6 +17,7 @@
 
 - [ ] Blog
 - [x] Live Chat
+- [ ] PWA
 
 ## Nextjs Typescript Template (Include Tailwindcss, Customize ESLint Rules)
 
