@@ -2,7 +2,8 @@
 
 ### Landing Page
 
-- [ ] Slider Services
+- [x] Slider Services
+- [x] Services Page
 - [x] Detail Doctor Page
 - [x] Design Detail Doctor Page
 - [ ] Career Page
