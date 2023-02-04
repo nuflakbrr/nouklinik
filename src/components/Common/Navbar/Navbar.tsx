@@ -43,9 +43,6 @@ const Navbar: FC = () => {
         hamburger?.classList.add(styles.hamburgerActive);
         navMenu?.classList.remove('hidden');
       }
-
-      // hamburger.classList.toggle(styles.hamburgerActive);
-      // navMenu?.classList.toggle('hidden');
     });
   };
 
