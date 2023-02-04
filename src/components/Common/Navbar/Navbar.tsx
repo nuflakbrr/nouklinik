@@ -1,4 +1,4 @@
-import { FC, useEffect } from 'react';
+import { FC, useState, useEffect } from 'react';
 import { FaMapMarkerAlt, FaClock } from 'react-icons/fa';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -10,6 +10,8 @@ import { classNames } from '../../../lib/classNames';
 // import Logo from '';
 
 const Navbar: FC = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   const { pathname } = useRouter();
 
   // Navbar fixed position if scrolling
@@ -32,8 +34,18 @@ const Navbar: FC = () => {
     const navMenu = document.querySelector('#navMenu');
 
     hamburger?.addEventListener('click', () => {
-      hamburger.classList.toggle(styles.hamburgerActive);
-      navMenu?.classList.toggle('hidden');
+      setIsOpen(!isOpen);
+
+      if (isOpen) {
+        hamburger?.classList.remove(styles.hamburgerActive);
+        navMenu?.classList.add('hidden');
+      } else {
+        hamburger?.classList.add(styles.hamburgerActive);
+        navMenu?.classList.remove('hidden');
+      }
+
+      // hamburger.classList.toggle(styles.hamburgerActive);
+      // navMenu?.classList.toggle('hidden');
     });
   };
 
