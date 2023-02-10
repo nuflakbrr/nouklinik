@@ -1,7 +1,60 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
+import { useRouter } from 'next/router';
 import Head from 'next/head';
 
+import Navbar from '../../Common/Navbar/Navbar';
+import Footer from '../../Common/Footer';
+import axios from '../../../lib/axios';
+import { bindingState } from '../../../lib/bindingState';
+
 const ContainerLogin: FC = () => {
+  const [data, setData] = useState({
+    username: '',
+    password: '',
+    role: '',
+  });
+  const [notifiedSuccess, setNotifiedSuccess] = useState(0);
+
+  const router = useRouter();
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const sendData = { username: data.username, password: data.password };
+
+    if (data.role === 'admin') {
+      try {
+        const res = await axios.post('/login-admin', sendData);
+
+        if (res.data.status === 'success') {
+          setNotifiedSuccess(1);
+
+          localStorage.setItem('access', res.data.authorization.token);
+          localStorage.setItem('admin', JSON.stringify(res.data.user));
+          router.push('/admin/dashboard');
+        }
+      } catch (err) {
+        setNotifiedSuccess(2);
+        console.log(err);
+      }
+    } else if (data.role === 'doctor') {
+      try {
+        const res = await axios.post('/login-dokter', sendData);
+
+        if (res.data.status === 'success') {
+          setNotifiedSuccess(1);
+
+          localStorage.setItem('access', res.data.authorization.token);
+          localStorage.setItem('doctor', JSON.stringify(res.data.user));
+          router.push('/receptionist/dashboard');
+        }
+      } catch (err) {
+        setNotifiedSuccess(2);
+        console.log(err);
+      }
+    }
+  };
+
   return (
     <>
       <Head>
@@ -43,6 +96,8 @@ const ContainerLogin: FC = () => {
         />
       </Head>
 
+      <Navbar />
+
       <main className="pt-20">
         <section className="py-24">
           <div className="max-w-6xl mx-auto">
@@ -63,23 +118,47 @@ const ContainerLogin: FC = () => {
                       Selamat Datang!
                     </h1>
                   </div>
-                  <div className="bg-white rounded-lg shadow-lg p-8">
+
+                  <form
+                    className="bg-white rounded-lg shadow-lg p-8"
+                    onSubmit={handleSubmit}
+                  >
+                    {notifiedSuccess === 1 && (
+                      <div className="mb-4 bg-green-500 p-3 rounded">
+                        <p className="text-white text-sm font-bold">
+                          Login Sukses, Selamat datang kembali!
+                        </p>
+                      </div>
+                    )}
+
+                    {notifiedSuccess === 2 && (
+                      <div className="mb-4 bg-red-500 p-3 rounded">
+                        <p className="text-white text-sm font-bold">
+                          Username atau Password salah, silakan coba kembali!
+                        </p>
+                      </div>
+                    )}
+
                     <div className="mb-3">
                       <label
-                        htmlFor="email"
+                        htmlFor="username"
                         className="block text-slate-600 mb-2"
                       >
-                        Email
+                        Username
                       </label>
                       <input
-                        type="email"
-                        id="email"
+                        type="text"
+                        name="username"
+                        id="username"
                         className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring focus:ring-primary/70"
-                        placeholder="Masukkan email"
+                        placeholder="Masukkan Username"
                         autoFocus={true}
                         required
+                        value={data.username}
+                        onChange={(e) => bindingState(e, setData, 'username')}
                       />
                     </div>
+
                     <div className="mb-3">
                       <label
                         htmlFor="password"
@@ -89,12 +168,39 @@ const ContainerLogin: FC = () => {
                       </label>
                       <input
                         type="password"
+                        name="password"
                         id="password"
                         className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring focus:ring-primary/70"
                         placeholder="Masukkan password"
                         required
+                        value={data.password}
+                        onChange={(e) => bindingState(e, setData, 'password')}
                       />
                     </div>
+
+                    <div className="mb-3">
+                      <label
+                        htmlFor="role"
+                        className="block text-slate-600 mb-2"
+                      >
+                        Login Sebagai
+                      </label>
+                      <select
+                        name="role"
+                        id="role"
+                        className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring focus:ring-primary/70"
+                        required
+                        value={data.role}
+                        onChange={(e) => bindingState(e, setData, 'role')}
+                      >
+                        <option selected disabled>
+                          Pilih Jabatan
+                        </option>
+                        <option value="admin">Admin</option>
+                        <option value="doctor">Dokter</option>
+                      </select>
+                    </div>
+
                     <div>
                       <button
                         type="submit"
@@ -103,13 +209,15 @@ const ContainerLogin: FC = () => {
                         Masuk
                       </button>
                     </div>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 };

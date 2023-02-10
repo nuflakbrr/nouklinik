@@ -1,6 +1,8 @@
 import { FC } from 'react';
 import Head from 'next/head';
 
+import Navbar from '../../Common/Navbar/Navbar';
+import Footer from '../../Common/Footer';
 import TopSection from './components/Top';
 import AboutSection from './components/About';
 import ServiceSection from './components/Service';
@@ -45,6 +47,8 @@ const ContainerHome: FC = () => {
         <link rel="canonical" href="https://klinik-next.vercel.app/" />
       </Head>
 
+      <Navbar />
+
       <main className="pt-20">
         <TopSection />
         <AboutSection />
@@ -54,6 +58,8 @@ const ContainerHome: FC = () => {
         <Doctors />
         <FAQ />
       </main>
+
+      <Footer />
     </>
   );
 };

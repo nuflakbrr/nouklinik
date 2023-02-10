@@ -3,8 +3,8 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Script from 'next/script';
 
-import Navbar from '../components/Common/Navbar/Navbar';
-import Footer from '../components/Common/Footer';
+// import Navbar from '../components/Common/Navbar/Navbar';
+// import Footer from '../components/Common/Footer';
 
 /**
  * Un-comment ScrollToTop to active scroll to top button
@@ -25,13 +25,13 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* <ScrollToTop /> */}
 
       <Component {...pageProps} />
 
-      <Footer />
+      {/* <Footer /> */}
 
       <Script id="tawkto" strategy="lazyOnload">
         {`

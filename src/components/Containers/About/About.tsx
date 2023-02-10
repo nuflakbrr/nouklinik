@@ -1,6 +1,8 @@
 import { FC } from 'react';
 import Head from 'next/head';
 
+import Navbar from '../../Common/Navbar/Navbar';
+import Footer from '../../Common/Footer';
 import TopSection from './components/Top';
 import CompanySection from './components/Company';
 import HeadClinicSection from './components/HeadClinic';
@@ -45,12 +47,16 @@ const ContainerAbout: FC = () => {
         <link rel="canonical" href="https://klinik-next.vercel.app/about" />
       </Head>
 
+      <Navbar />
+
       <main className="pt-20">
         <TopSection />
         <CompanySection />
         <HeadClinicSection />
         <StructureSection />
       </main>
+
+      <Footer />
     </>
   );
 };

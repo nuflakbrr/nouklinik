@@ -1,6 +1,9 @@
 import { FC } from 'react';
 import Head from 'next/head';
 
+import Navbar from '../../Common/Navbar/Navbar';
+import Footer from '../../Common/Footer';
+
 const ContainerFAQ: FC = () => {
   return (
     <>
@@ -36,6 +39,8 @@ const ContainerFAQ: FC = () => {
         />
         <link rel="canonical" href="https://klinik-next.vercel.app/faq" />
       </Head>
+
+      <Navbar />
 
       <main className="pt-20">
         <section className="py-10 lg:py-24">
@@ -121,6 +126,8 @@ const ContainerFAQ: FC = () => {
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 };
