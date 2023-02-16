@@ -6,7 +6,7 @@ const Carousel: FC = () => {
   return (
     <Swiper
       spaceBetween={40}
-      slidesPerView={2}
+      slidesPerView={1}
       centeredSlides={true}
       navigation={{
         nextEl: '.swiper-button-next',
@@ -17,16 +17,16 @@ const Carousel: FC = () => {
           slidesPerView: 1,
         },
         768: {
-          slidesPerView: 2,
+          slidesPerView: 1,
         },
         992: {
-          slidesPerView: 2,
+          slidesPerView: 1,
         },
         1200: {
-          slidesPerView: 3,
+          slidesPerView: 2,
         },
         1400: {
-          slidesPerView: 3,
+          slidesPerView: 2,
         },
       }}
       modules={[Navigation]}
