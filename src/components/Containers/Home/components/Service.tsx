@@ -3,8 +3,7 @@ import { FaAngleRight, FaAngleLeft } from 'react-icons/fa';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-import CarouselDesktop from './Carousel/CarouselDesktop';
-import CarouselMobile from './Carousel/CarouselMobile';
+import Carousel from './Carousel/Carousel';
 
 const ServiceSection: FC = () => {
   return (
@@ -32,13 +31,7 @@ const ServiceSection: FC = () => {
             </div>
 
             <div className="mb-10 md:mb-16 w-full px-4 lg:w-1/2">
-              <div className="hidden lg:contents">
-                <CarouselDesktop />
-              </div>
-
-              <div className="contents lg:hidden">
-                <CarouselMobile />
-              </div>
+              <Carousel />
             </div>
           </div>
         </div>
