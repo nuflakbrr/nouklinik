@@ -6,7 +6,7 @@
 - [x] Services Page
 - [x] Detail Doctor Page
 - [x] Design Detail Doctor Page
-- [ ] Career Page
+- [x] Career Page
 - [x] Contact Page
 - [x] FAQ Page
 - [x] Terms Page
