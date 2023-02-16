@@ -11,7 +11,7 @@ const ContainerLogin: FC = () => {
   const [data, setData] = useState({
     username: '',
     password: '',
-    role: '',
+    role: 'default',
   });
   const [notifiedSuccess, setNotifiedSuccess] = useState(0);
 
@@ -20,7 +20,7 @@ const ContainerLogin: FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const sendData = { username: data.username, password: data.password };
+    const sendData = { ...data };
 
     if (data.role === 'admin') {
       try {
@@ -46,7 +46,7 @@ const ContainerLogin: FC = () => {
 
           localStorage.setItem('access', res.data.authorization.token);
           localStorage.setItem('doctor', JSON.stringify(res.data.user));
-          router.push('/receptionist/dashboard');
+          router.push('/doctor/dashboard');
         }
       } catch (err) {
         setNotifiedSuccess(2);
@@ -193,7 +193,7 @@ const ContainerLogin: FC = () => {
                         value={data.role}
                         onChange={(e) => bindingState(e, setData, 'role')}
                       >
-                        <option selected disabled>
+                        <option value="default" selected disabled>
                           Pilih Jabatan
                         </option>
                         <option value="admin">Admin</option>
