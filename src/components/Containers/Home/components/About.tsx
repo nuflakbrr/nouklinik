@@ -6,9 +6,9 @@ const AboutSection: FC = () => {
   return (
     <section className="pt-24 pb-10 lg:pt-36 lg:pb-24" id="about-us">
       <div className="max-w-7xl mx-auto">
-        <div className="container">
-          <div className="flex flex-wrap items-center justify-center">
-            <div className="mb-10 w-full px-4 lg:w-1/2">
+        <div className="flex flex-wrap items-center justify-center">
+          <div className="mb-10 w-full px-4 lg:w-1/2">
+            <div className="container mx-auto">
               <img
                 src="/assets/img/mockup.png"
                 loading="lazy"
@@ -16,8 +16,10 @@ const AboutSection: FC = () => {
                 className="w-full h-full object-cover object-center rounded-xl"
               />
             </div>
+          </div>
 
-            <div className="mb-10 w-full px-4 lg:w-1/2">
+          <div className="mb-10 w-full px-4 lg:w-1/2">
+            <div className="container mx-auto">
               <p className="font-primary font-semibold text-lg xl:text-xl text-primary mb-2">
                 Tentang Kami
               </p>

@@ -5,7 +5,7 @@ const CallToAction: FC = () => {
   return (
     <section className="py-10 lg:py-24">
       <div className="max-w-7xl mx-auto">
-        <div className="container">
+        <div className="container mx-auto">
           <div className="w-full px-4">
             <div className="flex flex-col md:flex-row justify-between items-center bg-gray-100 rounded-lg gap-4 p-4 md:p-8">
               <div>

@@ -1,6 +1,5 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import Head from 'next/head';
 // import Script from 'next/script';
 
 import Navbar from '../components/Mixins/Navbar/Navbar';
@@ -10,17 +9,6 @@ import ScrollToTop from '../components/Common/ScrollToTop';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Head>
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport' content='width=device-width, initial-scale=1" />
-        <meta name="theme-color' content='#000000" />
-        <link
-          rel="shortcut icon"
-          href="/assets/favicon.png"
-          type="image/x-icon"
-        />
-      </Head>
-
       <Navbar />
 
       <ScrollToTop />
@@ -42,14 +30,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           })();
         `}
       </Script> */}
-
-      {/*
-        Un-comment below to active Tidio chat
-        <script
-          src="//code.tidio.co/qusxifbrlye534wenknkngvqp3k2mdw8.js"
-          async
-        />
-      */}
     </>
   );
 }

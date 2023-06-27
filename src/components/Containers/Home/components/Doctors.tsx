@@ -10,10 +10,10 @@ const Doctors: FC = () => {
   return (
     <section className="py-10 lg:py-24">
       <div className="max-w-7xl mx-auto">
-        <div className="container">
+        <div className="container mx-auto">
           <div className="w-full px-4">
-            <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
-              <div className="mb-5 md:mb-16">
+            <div className="flex items-start lg:items-center justify-between">
+              <div className="max-w-lg lg:max-w-full mb-5 md:mb-16">
                 <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-primary mb-2">
                   Temui Dokter Kami
                 </h2>
@@ -36,7 +36,7 @@ const Doctors: FC = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
               {/* person start */}
               {doctorsData.slice(0, MAX_DISPLAYED_DOCTORS).map((d, i) => (
                 <div key={i}>

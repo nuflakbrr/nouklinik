@@ -4,9 +4,9 @@ const FAQ: FC = () => {
   return (
     <section className="py-10 lg:py-24">
       <div className="max-w-7xl mx-auto">
-        <div className="container">
-          <div className="flex flex-wrap items-center justify-center">
-            <div className="mb-5 lg:mb-0 w-full px-4 lg:w-1/2">
+        <div className="flex flex-wrap items-center justify-center">
+          <div className="mb-5 lg:mb-0 w-full px-4 lg:w-1/2">
+            <div className="container mx-auto">
               <h1 className="font-primary font-semibold text-2xl lg:text-3xl text-primary mb-2">
                 Pertanyaan Umum
               </h1>
@@ -16,8 +16,10 @@ const FAQ: FC = () => {
                 yang dapat kami lakukan untuk Anda.
               </p>
             </div>
+          </div>
 
-            <div className="w-full px-4 lg:w-1/2">
+          <div className="w-full px-4 lg:w-1/2">
+            <div className="container mx-auto">
               <div className="rounded-xl shadow-lg p-5">
                 <div className="mb-0 md:mb-2">
                   <details className="mb-4">

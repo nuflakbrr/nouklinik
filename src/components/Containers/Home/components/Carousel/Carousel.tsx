@@ -5,8 +5,7 @@ import { Navigation } from 'swiper';
 const Carousel: FC = () => {
   return (
     <Swiper
-      spaceBetween={40}
-      slidesPerView={1}
+      spaceBetween={30}
       centeredSlides={true}
       navigation={{
         nextEl: '.swiper-button-next',
@@ -14,13 +13,13 @@ const Carousel: FC = () => {
       }}
       breakpoints={{
         576: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         768: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         992: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         1200: {
           slidesPerView: 2,

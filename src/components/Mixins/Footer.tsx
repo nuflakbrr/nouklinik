@@ -14,7 +14,6 @@ const Footer: FC = () => {
   const year = new Date().getFullYear();
 
   const primaryLink = [
-    { title: 'Beranda', url: '/' },
     { title: 'Tentang Kami', url: '/about' },
     { title: 'Layanan', url: '/service' },
     { title: 'Dokter', url: '/doctors' },
@@ -22,7 +21,6 @@ const Footer: FC = () => {
 
   const secondaryLink = [
     { title: 'Fasilitas', url: '/facilities' },
-    { title: 'Blog', url: '/blog' },
     { title: 'Karir', url: '/career' },
     { title: 'Informasi Magang', url: '/internship' },
   ];
@@ -45,7 +43,7 @@ const Footer: FC = () => {
   ];
 
   return (
-    <div className="bg-slate-800">
+    <div className="bg-gray-900">
       <footer className="max-w-7xl px-4 mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-12 lg:gap-8 pt-10 lg:pt-12 mb-16">
           <div className="col-span-full lg:col-span-2">
@@ -53,29 +51,22 @@ const Footer: FC = () => {
             <div className="mb-4">
               <Link href="/" legacyBehavior>
                 <a
-                  className="inline-flex items-center text-gray-100 font-primary text-xl md:text-2xl font-bold gap-2"
+                  className="inline-flex items-center gap-2 font-primary py-5"
                   aria-label="logo"
                 >
-                  <svg
-                    width="95"
-                    height="94"
-                    viewBox="0 0 95 94"
-                    className="w-5 h-auto text-primary"
-                    fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M96 0V47L48 94H0V47L48 0H96Z" />
-                  </svg>
-                  Brand Klinik
+                  <img
+                    src="/assets/img/logo/nou_navbar.png"
+                    alt="Brand Logo"
+                    className="w-40 h-12 object-cover object-center"
+                  />
                 </a>
               </Link>
             </div>
             {/* logo end */}
 
             <p className="text-gray-400 sm:pr-8 mb-6">
-              Berdiri sejak 2023, Klinik Kesehatan <i>Nama Klinik</i> telah
-              membantu masyarakat dalam mendapatkan pelayanan kesehatan yang
-              berkualitas.
+              Berdiri sejak 2023, NOU Klinik telah membantu masyarakat dalam
+              mendapatkan pelayanan kesehatan yang berkualitas.
             </p>
 
             {/* social start */}
@@ -177,7 +168,18 @@ const Footer: FC = () => {
         </div>
 
         <div className="text-gray-400 text-sm text-center border-t border-gray-800 py-8">
-          © {year} - PT <i>Nama PT Klinik</i>. All rights reserved.
+          <p>© {year} - NOU Klinik Kesehatan. All rights reserved.</p>
+          <p>
+            Developed by{' '}
+            <a
+              href="https://naufalakbar.me"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-primary"
+            >
+              Naufal Akbar Nugroho.
+            </a>
+          </p>
         </div>
       </footer>
     </div>

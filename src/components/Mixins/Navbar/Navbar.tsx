@@ -1,13 +1,11 @@
 import { FC, useState, useEffect } from 'react';
 import { FaMapMarkerAlt, FaClock } from 'react-icons/fa';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 import styles from './Navbar.module.css';
 import { headerNavLink } from '../../../data/headerNavLink';
 import { classNames } from '../../../lib/classNames';
-
-// import Logo from '';
 
 const Navbar: FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,17 +31,15 @@ const Navbar: FC = () => {
     const hamburger = document.querySelector('#hamburger');
     const navMenu = document.querySelector('#navMenu');
 
-    hamburger?.addEventListener('click', () => {
-      setIsOpen(!isOpen);
+    setIsOpen(!isOpen);
 
-      if (isOpen) {
-        hamburger?.classList.remove(styles.hamburgerActive);
-        navMenu?.classList.add('hidden');
-      } else {
-        hamburger?.classList.add(styles.hamburgerActive);
-        navMenu?.classList.remove('hidden');
-      }
-    });
+    if (isOpen) {
+      hamburger?.classList.remove(styles.hamburgerActive);
+      navMenu?.classList.add('hidden');
+    } else {
+      hamburger?.classList.add(styles.hamburgerActive);
+      navMenu?.classList.remove('hidden');
+    }
   };
 
   // IsMenuActive handler
@@ -64,7 +60,7 @@ const Navbar: FC = () => {
           <div className="flex items-center justify-between px-4">
             <div className="flex items-center justify-center">
               <FaMapMarkerAlt className="mr-2" />
-              <p className="font-primary font-normal text-sm">
+              <p className="font-primary font-normal text-xs lg:text-sm">
                 Jl. Panji Suroso Kompleks Araya Business Center Kav.2-4, Kota
                 Malang 65126
               </p>
@@ -72,7 +68,7 @@ const Navbar: FC = () => {
 
             <div className="flex items-center justify-center">
               <FaClock className="mr-2" />
-              <p className="font-primary font-normal text-sm">
+              <p className="font-primary font-normal text-xs lg:text-sm">
                 Poliklinik Senin - Sabtu: 07:00 - 21:00 WIB
               </p>
             </div>
@@ -80,28 +76,21 @@ const Navbar: FC = () => {
         </div>
       </div>
 
-      <div className="bg-transparent flex items-center">
-        <div className="container">
+      <div className="bg-white flex items-center">
+        <div className="container mx-auto">
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between relative">
               <div className="px-4">
                 <Link href="/" legacyBehavior>
                   <a
-                    className="inline-flex items-center gap-2 font-primary font-bold text-xl lg:text-2xl py-6"
+                    className="inline-flex items-center gap-2 font-primary py-5"
                     aria-label="logo"
                   >
-                    <svg
-                      width="95"
-                      height="94"
-                      viewBox="0 0 95 94"
-                      className="w-5 h-auto text-primary"
-                      fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M96 0V47L48 94H0V47L48 0H96Z" />
-                    </svg>
-                    Brand Klinik
-                    {/* <Image src={Logo} width={100} height={40} alt="Logo Brand" /> */}
+                    <img
+                      src="/assets/img/logo/nou_navbar.png"
+                      alt="Brand Logo"
+                      className="w-36 h-12 object-cover object-center"
+                    />
                   </a>
                 </Link>
               </div>
