@@ -1,9 +1,6 @@
 import { FC } from 'react';
 import Head from 'next/head';
 
-import Navbar from '../../Common/Navbar/Navbar';
-import Footer from '../../Common/Footer';
-
 const ContainerService: FC = () => {
   return (
     <>
@@ -42,8 +39,6 @@ const ContainerService: FC = () => {
         />
         <link rel="canonical" href="https://klinik-next.vercel.app/service" />
       </Head>
-
-      <Navbar />
 
       <main className="pt-20">
         <section className="py-10 lg:py-24">
@@ -152,8 +147,6 @@ const ContainerService: FC = () => {
           </div>
         </section>
       </main>
-
-      <Footer />
     </>
   );
 };

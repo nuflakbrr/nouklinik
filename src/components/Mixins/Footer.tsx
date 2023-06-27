@@ -6,7 +6,7 @@ import {
   InstagramIcon,
   LinkedInIcon,
   TwitterIcon,
-} from '../CustomIcons';
+} from '../Common/CustomIcons';
 
 // const Logo = '/img/hadir-in.jpeg';
 

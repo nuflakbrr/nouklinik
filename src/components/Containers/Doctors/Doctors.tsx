@@ -2,8 +2,6 @@ import { FC } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-import Navbar from '../../Common/Navbar/Navbar';
-import Footer from '../../Common/Footer';
 import { doctorsData } from '../../../data/doctors';
 
 const ContainerDoctors: FC = () => {
@@ -44,8 +42,6 @@ const ContainerDoctors: FC = () => {
         />
         <link rel="canonical" href="https://klinik-next.vercel.app/doctors" />
       </Head>
-
-      <Navbar />
 
       <main className="pt-20">
         <section className="py-10 lg:py-24">
@@ -96,8 +92,6 @@ const ContainerDoctors: FC = () => {
           </div>
         </section>
       </main>
-
-      <Footer />
     </>
   );
 };

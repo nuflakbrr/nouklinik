@@ -1,15 +1,11 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import Script from 'next/script';
+// import Script from 'next/script';
 
-// import Navbar from '../components/Common/Navbar/Navbar';
-// import Footer from '../components/Common/Footer';
-
-/**
- * Un-comment ScrollToTop to active scroll to top button
- * import ScrollToTop from '../components/ScrollToTop';
- */
+import Navbar from '../components/Mixins/Navbar/Navbar';
+import Footer from '../components/Mixins/Footer';
+import ScrollToTop from '../components/Common/ScrollToTop';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -25,15 +21,15 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
       </Head>
 
-      {/* <Navbar /> */}
+      <Navbar />
 
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
 
       <Component {...pageProps} />
 
-      {/* <Footer /> */}
+      <Footer />
 
-      <Script id="tawkto" strategy="lazyOnload">
+      {/* <Script id="tawkto" strategy="lazyOnload">
         {`
           var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
           (function(){
@@ -45,7 +41,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           s0.parentNode.insertBefore(s1,s0);
           })();
         `}
-      </Script>
+      </Script> */}
 
       {/*
         Un-comment below to active Tidio chat

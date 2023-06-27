@@ -1,9 +1,7 @@
 import { FC } from 'react';
 import Head from 'next/head';
 
-import Navbar from '../../Common/Navbar/Navbar';
-import Footer from '../../Common/Footer';
-import CallToAction from '../../CallToAction';
+import CallToAction from '../../Common/CallToAction';
 
 const ContainerFacilities: FC = () => {
   return (
@@ -46,8 +44,6 @@ const ContainerFacilities: FC = () => {
           href="https://klinik-next.vercel.app/facilities"
         />
       </Head>
-
-      <Navbar />
 
       <main className="pt-20">
         <section className="pt-10 lg:pt-24">
@@ -154,8 +150,6 @@ const ContainerFacilities: FC = () => {
 
         <CallToAction />
       </main>
-
-      <Footer />
     </>
   );
 };

@@ -1,7 +1,7 @@
 import { FC, useState, useEffect } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 
-import { classNames } from '../lib/classNames';
+import { classNames } from '../../lib/classNames';
 
 const ScrollToTop: FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -32,12 +32,12 @@ const ScrollToTop: FC = () => {
 
   return (
     <>
-      <div className="fixed bottom-[90px] right-6">
+      <div className="fixed bottom-6 right-6">
         <button
           type="button"
           onClick={scrollTop}
           className={classNames(
-            isVisible ? 'opacity-100' : 'opacity-0',
+            isVisible ? 'opacity-100' : 'opacity-0 cursor-default',
             'flex flex-col justify-center items-center rounded-lg bg-primary p-2 text-white transition-all hover:bg-primarydark'
           )}
         >
