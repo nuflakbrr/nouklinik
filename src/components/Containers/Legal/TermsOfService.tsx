@@ -6,13 +6,13 @@ const ContainerTermsOfService: FC = () => {
   return (
     <>
       <Head>
-        <title>Terms Of Service - Brand Klinik</title>
+        <title>Terms Of Service - NOU Klinik</title>
       </Head>
 
       <main className="pt-20">
         <section className="pb-4 lg:py-20">
           <div className="max-w-7xl mx-auto">
-            <div className="container">
+            <div className="container mx-auto">
               <div className="flex flex-wrap items-center justify-start">
                 <div className="w-full px-4">
                   <h1 className="text-2xl lg:text-3xl font-bold mb-3 lg:mb-5">
@@ -28,7 +28,7 @@ const ContainerTermsOfService: FC = () => {
                       By accessing this Website, accessible from{' '}
                       <Link href="/" legacyBehavior>
                         <a className="text-blue-500 hover:text-blue-600">
-                          https://klinik-next.vercel.app/
+                          https://nouklinik.vercel.app/
                         </a>
                       </Link>
                       , you are agreeing to be bound by these Website Terms and
@@ -47,7 +47,7 @@ const ContainerTermsOfService: FC = () => {
                   <div className="mb-3 lg:mb-5 max-w-3xl">
                     <p className="text-gray-500 xl:text-lg leading-relaxed text-justify mb-5">
                       Permission is granted to temporarily download one copy of
-                      the materials on PT Nama Brand Klinik&apos;s Website for
+                      the materials on PT NOU Klinik&apos;s Website for
                       personal, non-commercial transitory viewing only. This is
                       the grant of a license, not a transfer of title, and under
                       this license you may not:
@@ -61,7 +61,7 @@ const ContainerTermsOfService: FC = () => {
                       </li>
                       <li>
                         attempt to reverse engineer any software contained on PT
-                        Nama Brand Klinik&apos;s Website;
+                        Nama NOU Klinik&apos;s Website;
                       </li>
                       <li>
                         remove any copyright or other proprietary notations from
@@ -74,9 +74,9 @@ const ContainerTermsOfService: FC = () => {
                     </ul>
 
                     <p className="text-gray-500 xl:text-lg leading-relaxed text-justify mb-5">
-                      This will let PT Nama Brand Klinik to terminate upon
-                      violations of any of these restrictions. Upon termination,
-                      your viewing right will also be terminated and you should
+                      This will let PT NOU Klinik to terminate upon violations
+                      of any of these restrictions. Upon termination, your
+                      viewing right will also be terminated and you should
                       destroy any downloaded materials in your possession
                       whether it is printed or electronic format.
                     </p>
@@ -88,9 +88,9 @@ const ContainerTermsOfService: FC = () => {
 
                   <div className="mb-3 lg:mb-5 max-w-3xl">
                     <p className="text-gray-500 xl:text-lg leading-relaxed text-justify mb-5">
-                      All the materials on PT Nama Brand Klinik&apos;s Website
-                      are provided &quot;as is&quot;. PT Nama Brand Klinik makes
-                      no warranties, may it be expressed or implied, therefore
+                      All the materials on PT NOU Klinik&apos;s Website are
+                      provided &quot;as is&quot;. PT NOU Klinik makes no
+                      warranties, may it be expressed or implied, therefore
                       negates all other warranties. Furthermore, PT Nama Brand
                       Klinik does not make any representations concerning the
                       accuracy or reliability of the use of the materials on its
@@ -105,10 +105,10 @@ const ContainerTermsOfService: FC = () => {
 
                   <div className="mb-3 lg:mb-5 max-w-3xl">
                     <p className="text-gray-500 xl:text-lg leading-relaxed text-justify mb-5">
-                      PT Nama Brand Klinik or its suppliers will not be hold
+                      PT NOU Klinik or its suppliers will not be hold
                       accountable for any damages that will arise with the use
                       or inability to use the materials on PT Nama Brand
-                      Klinik&apos;s Website, even if PT Nama Brand Klinik or an
+                      Klinik&apos;s Website, even if PT NOU Klinik or an
                       authorize representative of this Website has been
                       notified, orally or written, of the possibility of such
                       damage. Some jurisdiction does not allow limitations on
@@ -124,14 +124,13 @@ const ContainerTermsOfService: FC = () => {
 
                   <div className="mb-3 lg:mb-5 max-w-3xl">
                     <p className="text-gray-500 xl:text-lg leading-relaxed text-justify mb-5">
-                      The materials appearing on PT Nama Brand Klinik&apos;s
-                      Website may include technical, typographical, or
-                      photographic errors. PT Nama Brand Klinik will not promise
-                      that any of the materials in this Website are accurate,
-                      complete, or current. PT Nama Brand Klinik may change the
-                      materials contained on its Website at any time without
-                      notice. PT Nama Brand Klinik does not make any commitment
-                      to update the materials.
+                      The materials appearing on PT NOU Klinik&apos;s Website
+                      may include technical, typographical, or photographic
+                      errors. PT NOU Klinik will not promise that any of the
+                      materials in this Website are accurate, complete, or
+                      current. PT NOU Klinik may change the materials contained
+                      on its Website at any time without notice. PT NOU Klinik
+                      does not make any commitment to update the materials.
                     </p>
                   </div>
 
@@ -141,12 +140,11 @@ const ContainerTermsOfService: FC = () => {
 
                   <div className="mb-3 lg:mb-5 max-w-3xl">
                     <p className="text-gray-500 xl:text-lg leading-relaxed text-justify mb-5">
-                      PT Nama Brand Klinik has not reviewed all of the sites
-                      linked to its Website and is not responsible for the
-                      contents of any such linked site. The presence of any link
-                      does not imply endorsement by PT Nama Brand Klinik of the
-                      site. The use of any linked website is at the user&apos;s
-                      own risk.
+                      PT NOU Klinik has not reviewed all of the sites linked to
+                      its Website and is not responsible for the contents of any
+                      such linked site. The presence of any link does not imply
+                      endorsement by PT NOU Klinik of the site. The use of any
+                      linked website is at the user&apos;s own risk.
                     </p>
                   </div>
 
@@ -156,7 +154,7 @@ const ContainerTermsOfService: FC = () => {
 
                   <div className="mb-3 lg:mb-5 max-w-3xl">
                     <p className="text-gray-500 xl:text-lg leading-relaxed text-justify mb-5">
-                      PT Nama Brand Klinik may revise these Terms of Use for its
+                      PT NOU Klinik may revise these Terms of Use for its
                       Website at any time without prior notice. By using this
                       Website, you are agreeing to be bound by the current
                       version of these Terms and Conditions of Use.
@@ -184,9 +182,9 @@ const ContainerTermsOfService: FC = () => {
 
                   <div className="mb-3 lg:mb-5 max-w-3xl">
                     <p className="text-gray-500 xl:text-lg leading-relaxed text-justify mb-5">
-                      Any claim related to PT Nama Brand Klinik&apos;s Website
-                      shall be governed by the laws of id without regards to its
-                      conflict of law provisions.
+                      Any claim related to PT NOU Klinik&apos;s Website shall be
+                      governed by the laws of id without regards to its conflict
+                      of law provisions.
                     </p>
                   </div>
                 </div>

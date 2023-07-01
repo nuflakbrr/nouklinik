@@ -5,7 +5,7 @@ const ContainerInternship: FC = () => {
   return (
     <>
       <Head>
-        <title>Informasi Magang - Brand Klinik</title>
+        <title>Informasi Magang - NOU Klinik</title>
         <meta name="robots" content="follow, index" />
         <meta
           name="description"
@@ -17,18 +17,18 @@ const ContainerInternship: FC = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
-        <meta property="og:site_name" content="Brand Klinik" />
+        <meta property="og:site_name" content="NOU Klinik" />
         <meta
           property="og:description"
           content="Nama Klinik menyediakan serta memfasilitasi program magang di mana siswa maupun mahasiswa bisa menggunakan kesempatan ini untuk melatih skill dan melakukan pengembangan diri dalam dunia kerja."
         />
-        <meta property="og:title" content="Informasi Magang - Brand Klinik" />
+        <meta property="og:title" content="Informasi Magang - NOU Klinik" />
         <meta
           property="og:image"
           content="http://klinik-next.vercel.app/assets/svg/undraw_doctor.svg"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Informasi Magang - Brand Klinik" />
+        <meta name="twitter:title" content="Informasi Magang - NOU Klinik" />
         <meta
           name="twitter:description"
           content="Nama Klinik menyediakan serta memfasilitasi program magang di mana siswa maupun mahasiswa bisa menggunakan kesempatan ini untuk melatih skill dan melakukan pengembangan diri dalam dunia kerja."
@@ -44,9 +44,9 @@ const ContainerInternship: FC = () => {
       </Head>
 
       <main className="pt-20">
-        <section className="pb-4 lg:py-20">
-          <div className="max-w-7xl mx-auto">
-            <div className="container">
+        <section className="pt-14 pb-4 lg:py-20">
+          <div className="container mx-auto">
+            <div className="max-w-7xl mx-auto">
               <div className="flex flex-wrap items-center justify-start">
                 <div className="w-full px-4">
                   <h1 className="text-2xl lg:text-3xl font-bold mb-3 lg:mb-5">

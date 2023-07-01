@@ -3,8 +3,8 @@ import { FC } from 'react';
 const StructureSection: FC = () => {
   return (
     <section className="py-10 lg:py-24">
-      <div className="max-w-7xl mx-auto">
-        <div className="container">
+      <div className="container mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="flex flex-wrap">
             <div className="w-full px-4">
               <h1 className="font-primary font-semibold text-2xl lg:text-3xl mb-5">

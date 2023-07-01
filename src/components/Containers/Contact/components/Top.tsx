@@ -2,9 +2,9 @@ import { FC } from 'react';
 
 const TopSection: FC = () => {
   return (
-    <section className="py-10 lg:py-24">
-      <div className="max-w-7xl mx-auto">
-        <div className="container">
+    <section className="py-14 lg:py-24">
+      <div className="container mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="flex flex-wrap-reverse">
             <div className="w-full px-4 lg:w-1/2">
               <p className="font-primary font-semibold text-lg xl:text-xl text-primary uppercase mb-3 md:mb-6">

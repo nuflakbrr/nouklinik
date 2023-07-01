@@ -19,9 +19,9 @@ const Doctors: FC = () => {
                 </h2>
 
                 <p className="max-w-screen-md text-gray-500 md:text-lg">
-                  Klinik Kesehatan <i>Nama Klinik</i> memiliki Tenaga Medis yang
-                  profesional dan kompeten di bidangnya, dengan berbagai bidang
-                  spesialisasi dan subspesialisasi kedokteran.
+                  NOU Klinik memiliki Tenaga Medis yang profesional dan kompeten
+                  di bidangnya, dengan berbagai bidang spesialisasi dan
+                  subspesialisasi kedokteran.
                 </p>
               </div>
 

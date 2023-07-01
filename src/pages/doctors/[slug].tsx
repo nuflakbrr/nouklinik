@@ -30,7 +30,7 @@ const DetailDoctor: FC = ({ data }: any) => {
   return (
     <>
       <Head>
-        <title>Dokter {data.name} - Brand Klinik</title>
+        <title>Dokter {data.name} - NOU Klinik</title>
         <meta name="robots" content="follow, index" />
         <meta name="description" content={data.desc} />
         <meta
@@ -39,12 +39,12 @@ const DetailDoctor: FC = ({ data }: any) => {
         />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="id_ID" />
-        <meta property="og:site_name" content="Brand Klinik" />
+        <meta property="og:site_name" content="NOU Klinik" />
         <meta property="og:description" content={data.desc} />
-        <meta property="og:title" content={`${data.name} - Brand Klinik`} />
+        <meta property="og:title" content={`${data.name} - NOU Klinik`} />
         <meta property="og:image" content={data.img} key={data.img} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${data.name} - Brand Klinik`} />
+        <meta name="twitter:title" content={`${data.name} - NOU Klinik`} />
         <meta name="twitter:description" content={data.desc} />
         <meta name="twitter:image" content={data.img} />
         <link

@@ -4,11 +4,11 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const HeadClinicSection: FC = () => {
   return (
     <section className="py-10 lg:py-24">
-      <div className="max-w-7xl mx-auto">
-        <div className="container">
+      <div className="container mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="flex flex-col justify-center items-center px-4">
             <h1 className="font-primary font-semibold text-xl lg:text-2xl">
-              Kepala Klinik Kesehatan PT <i>Nama PT Klinik</i>
+              Kepala Klinik Kesehatan PT NOU Klinik
             </h1>
 
             <div className="my-10">

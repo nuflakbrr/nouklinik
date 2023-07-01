@@ -17,18 +17,18 @@ const ContainerService: FC = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
-        <meta property="og:site_name" content="Brand Klinik" />
+        <meta property="og:site_name" content="NOU Klinik" />
         <meta
           property="og:description"
           content="Klinik Kesehatan Nama Klinik menawarkan berbagai pelayanan kesehatan yang mampu menjawab kebutuhan masyarakat dan keramahan staff baik medis maupun non medis."
         />
-        <meta property="og:title" content="Layanan Kami -Brand Klinik" />
+        <meta property="og:title" content="Layanan Kami -NOU Klinik" />
         <meta
           property="og:image"
           content="http://klinik-next.vercel.app/assets/svg/undraw_doctor.svg"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Layanan Kami -Brand Klinik" />
+        <meta name="twitter:title" content="Layanan Kami -NOU Klinik" />
         <meta
           name="twitter:description"
           content="Klinik Kesehatan Nama Klinik menawarkan berbagai pelayanan kesehatan yang mampu menjawab kebutuhan masyarakat dan keramahan staff baik medis maupun non medis."
@@ -41,9 +41,9 @@ const ContainerService: FC = () => {
       </Head>
 
       <main className="pt-20">
-        <section className="py-10 lg:py-24">
-          <div className="max-w-7xl mx-auto">
-            <div className="container">
+        <section className="py-14 lg:py-24">
+          <div className="container mx-auto">
+            <div className="max-w-7xl mx-auto">
               <div className="w-full px-4">
                 <div className="mb-10 md:mb-16">
                   <h2 className="font-primary font-semibold text-2xl lg:text-3xl text-primary lg:text-center mb-2">
@@ -51,9 +51,9 @@ const ContainerService: FC = () => {
                   </h2>
 
                   <p className="max-w-screen-md text-gray-500 md:text-lg lg:text-center mx-auto">
-                    Klinik Kesehatan <i>Nama Klinik</i> menawarkan berbagai
-                    pelayanan kesehatan yang mampu menjawab kebutuhan masyarakat
-                    dan keramahan staff baik medis maupun non medis.
+                    NOU Klinik menawarkan berbagai pelayanan kesehatan yang
+                    mampu menjawab kebutuhan masyarakat dan keramahan staff baik
+                    medis maupun non medis.
                   </p>
                 </div>
 

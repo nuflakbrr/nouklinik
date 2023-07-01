@@ -3,8 +3,8 @@ import { FC } from 'react';
 const Form: FC = () => {
   return (
     <section className="py-10 lg:py-24">
-      <div className="max-w-7xl mx-auto">
-        <div className="container">
+      <div className="container mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="flex flex-wrap">
             <div className="mb-10 lg:mb-0 w-full px-4 lg:w-2/3">
               <h1 className="font-primary font-semibold text-2xl lg:text-3xl mb-2">
