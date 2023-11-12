@@ -22,8 +22,8 @@ const myIcon = new Icon({
 const Maps: FC = () => {
   return (
     <section className="py-10 lg:py-24">
-      <div className="max-w-7xl mx-auto">
-        <div className="container">
+      <div className="container mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="flex flex-wrap items-center justify-center">
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-10 md:mb-16">

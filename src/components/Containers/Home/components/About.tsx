@@ -12,7 +12,7 @@ const AboutSection: FC = () => {
               <img
                 src="/assets/img/mockup.png"
                 loading="lazy"
-                alt="Gedung PT Brand Klinik"
+                alt="Gedung PT NOU Klinik"
                 className="w-full h-full object-cover object-center rounded-xl"
               />
             </div>

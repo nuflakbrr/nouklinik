@@ -11,7 +11,7 @@ const ContainerContact: FC = () => {
   return (
     <>
       <Head>
-        <title>Kontak Kami - Brand Klinik</title>
+        <title>Kontak Kami - NOU Klinik</title>
         <meta name="robots" content="follow, index" />
         <meta
           name="description"
@@ -23,18 +23,18 @@ const ContainerContact: FC = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
-        <meta property="og:site_name" content="Brand Klinik" />
+        <meta property="og:site_name" content="NOU Klinik" />
         <meta
           property="og:description"
           content="Untuk meningkatkan kualitas layanan kami, kami sangat mengharapkan kritik dan saran Anda. Jika Anda memiliki kritik dan saran untuk kami, silahkan isi form di bawah ini."
         />
-        <meta property="og:title" content="Kontak Kami - Brand Klinik" />
+        <meta property="og:title" content="Kontak Kami - NOU Klinik" />
         <meta
           property="og:image"
           content="http://klinik-next.vercel.app/assets/svg/undraw_group_video.svg"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kontak Kami - Brand Klinik" />
+        <meta name="twitter:title" content="Kontak Kami - NOU Klinik" />
         <meta
           name="twitter:description"
           content="Untuk meningkatkan kualitas layanan kami, kami sangat mengharapkan kritik dan saran Anda. Jika Anda memiliki kritik dan saran untuk kami, silahkan isi form di bawah ini."
